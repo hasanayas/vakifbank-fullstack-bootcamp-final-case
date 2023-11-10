@@ -1,0 +1,41 @@
+<div class="main">
+   
+  
+  <div class="mb-3">
+    <label for="paymentMethod" class="form-label">Select Payment Method:</label>
+    <select class="form-select" id="paymentMethod" (change)="onPaymentMethodChange($event)" [(ngModel)]="selectedPaymentMethod">
+      <option value="Credit Card">Credit Card</option>
+      <option value="Bank Transfer">Bank Transfer</option>
+      <option value="EFT">EFT</option>
+    </select>
+  </div>
+
+
+  <!-- Kredi Kartı -->
+  <div class="mb-3" *ngIf="selectedPaymentMethod === 'Credit Card'">
+      <label for="creditCardNumber" class="form-label mt-3">Credit Card Number </label>
+      <input type="text" class="form-control" id="creditCardNumber" [(ngModel)]="creditCardNumber" (input)="formatCreditCardNumber()" maxlength="19" pattern="\d{16}" required placeholder="1234 5678 9012 3456" />
+    
+      <label for="expiryDate" class="form-label mt-3">Expiry Date</label>
+      <input type="text" class="form-control" id="expiryDate" pattern="\d{2}/\d{2}" placeholder="MM/YY" required (input)="formatExpiryDate($event)" maxlength="5" />
+  
+      <label for="cvv" class="form-label mt-3">CVV</label>
+      <input type="text" class="form-control" id="cvv" maxlength="3" pattern="\d{3}" required placeholder="000"/>
+  </div>
+  
+<!-- Havale (Banka Hesabı) -->
+    <div class="mb-3" *ngIf="selectedPaymentMethod === 'Bank Transfer'">
+      <label for="bankName" class="form-label mt-3 ">Bank Name:</label>
+      <input type="text" class="form-control" id="bankName" />
+      
+      <label for="accountNumber" class="form-label mt-3">Account Number:</label>
+      <input type="text" class="form-control" id="accountNumber" />
+    </div>
+    
+<!-- EFT (Iban) -->
+    <div class="mb-3" *ngIf="selectedPaymentMethod === 'EFT'">
+      <label for="iban" class="form-label mt-3">IBAN:</label>
+      <input type="text" class="form-control" id="iban" />
+    </div>
+  
+  </div>

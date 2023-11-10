@@ -1,0 +1,122 @@
+2023-10-30 00:24:06.082 [INF] App server is starting.
+2023-10-30 00:24:31.622 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 00:24:31.627 [INF] HeartBeat
+2023-10-30 00:24:31.631 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 00:24:36.535 [FTL] Path=/finalCase/Users/2 || Method=PUT || Exception=The instance of entity type 'User' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+2023-10-30 00:24:36.723 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id eb85f8e8-3d5d-448d-b90f-732a4d4399d8 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 00:24:36.883 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id eb85f8e8-3d5d-448d-b90f-732a4d4399d8 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 00:24:36.889 [ERR] Connection ID "18302628904424177754", Request ID "8000005b-0004-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id eb85f8e8-3d5d-448d-b90f-732a4d4399d8 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2023-10-30 00:25:04.003 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 00:25:04.008 [INF] HeartBeat
+2023-10-30 00:25:04.010 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 00:25:04.735 [FTL] Path=/finalCase/Users/2 || Method=PUT || Exception=The instance of entity type 'User' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+2023-10-30 00:25:04.884 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id e4a56f2e-8d47-4904-9336-971159488df1 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 00:25:04.888 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id e4a56f2e-8d47-4904-9336-971159488df1 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 00:25:04.890 [ERR] Connection ID "18302628904424177756", Request ID "8000005d-0004-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id e4a56f2e-8d47-4904-9336-971159488df1 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2023-10-30 00:26:52.746 [INF] App server is starting.
+2023-10-30 00:27:01.213 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 00:27:01.219 [INF] HeartBeat
+2023-10-30 00:27:01.223 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 00:27:04.199 [INF] -------------Request-Begin------------
+2023-10-30 00:27:04.200 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-10-30 00:27:04.201 [INF] 
+
+2023-10-30 00:27:04.202 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userNumber":100001,"userName":"string","userEmail":"string","userPassword":"b45cffe084dd3d20d928bee85e7b0f21","userPasswordRetryCount":0,"userRole":"Admin","userBalance":500,"userProfitMargin":10,"addresses":[],"orders":[]},{"userNumber":100002,"userName":"test","userEmail":"test","userPassword":"test","userPasswordRetryCount":0,"userRole":"Admin","userBalance":500,"userProfitMargin":10,"addresses":[],"orders":[]}]}
+2023-10-30 00:27:04.202 [INF] -------------Request-End------------

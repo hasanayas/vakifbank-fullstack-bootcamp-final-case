@@ -1,0 +1,8 @@
+<div class="page-container">
+    <app-admin-orders *ngIf="selectedPage === 'Orders'"></app-admin-orders>
+    <app-admin-update-stock *ngIf="selectedPage === 'Stock'"></app-admin-update-stock>
+    <app-admin-report *ngIf="selectedPage === 'Report'"></app-admin-report>
+    <app-admins-user-page *ngIf="selectedPage === 'Users'"></app-admins-user-page>
+
+  </div>
+  

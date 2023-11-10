@@ -1,0 +1,8 @@
+.custom-width {
+    width: 100%; /* Dilediğiniz genişliği burada ayarlayabilirsiniz. Örneğin: 300px; */
+}
+
+.container {
+    width: 80%;
+    margin-top: 1%;
+}

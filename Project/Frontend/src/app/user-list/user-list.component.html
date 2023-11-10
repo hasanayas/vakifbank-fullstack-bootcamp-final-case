@@ -1,0 +1,153 @@
+<!-- Tablo  -->
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="table-responsive">
+        <table class="table table-bordered" style="width: 100%;">
+
+          <thead class="thead-dark">
+            <tr>
+              <th>User Id</th>
+              <th>User Number</th>
+              <th>User Name</th>
+              <th>User Email</th>
+              <th>User Password</th>
+              <th>User Password Retry Count</th>
+              <th>User Role</th>
+              <th>User Balance</th>
+              <th>User Profit Margin</th>
+              <th>Date</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let user of users">
+              <td>{{ user.id}}</td>
+              <td>{{ user.userNumber }}</td>
+              <td>{{ user.userName }}</td>
+              <td>{{ user.userEmail }}</td>
+              <td>{{ user.userPassword }}</td>
+              <td>{{ user.userPasswordRetryCount }}</td>
+              <td>{{ user.userRole }}</td>
+              <td>{{ user.userBalance }}</td>
+              <td>{{ user.userProfitMargin }}</td>
+              <td>{{ user.insertDate }}</td>
+              <td>
+                <button class="btn btn-primary" (click)="transferUserData(user)">Transfer Data</button>
+              </td>
+              
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Kullanıcı İd -->
+    <div class="col-md-6 mt-3">
+      <div class="form-group">
+        <label for="userId">User ID</label>
+        <input type="number" class="form-control" id="userId" [(ngModel)]="userId">
+      </div>
+      <button class="btn btn-primary" (click)="searchUser()">Search User</button>
+
+      <div *ngIf="selectedUser">
+        <h3>Selected User</h3>
+        <p>User Number: {{ selectedUser.userNumber }}</p>
+        <p>User Name: {{ selectedUser.userName }}</p>
+        <p>User Email: {{ selectedUser.userEmail }}</p>
+        <!-- Diğer sütunları ekleyin -->
+      </div>
+    </div>
+ 
+
+    <!-- Kullanıcı ID Input ve Silme Butonu -->
+<div class="col-md-6 mt-3" >
+<div class="form-group">
+  <label for="deleteUserId">User ID to Delete</label>
+  <input type="number" class="form-control" id="deleteUserId" [(ngModel)]="userIdToDelete">
+</div>
+<button class="btn btn-danger" (click)="deleteUser()">Delete User</button>
+</div>
+
+
+<!-- ADD USER -->
+<div class="col-md-6 mt-3 ml-3">
+<h3>Create New User</h3>
+<div class="form-group">
+  <label for="newUserNumber">User Number</label>
+  <input type="number" class="form-control" id="newUserNumber" [(ngModel)]="newUserNumber">
+</div>
+<div class="form-group">
+  <label for="newUserName">User Name</label>
+  <input type="text" class="form-control" id="newUserName" [(ngModel)]="newUserName">
+</div>
+<div class="form-group">
+  <label for="newUserEmail">User Email</label>
+  <input type="email" class="form-control" id="newUserEmail" [(ngModel)]="newUserEmail">
+</div>
+<div class="form-group">
+  <label for="newUserPassword">User Password</label>
+  <input type="password" class="form-control" id="newUserPassword" [(ngModel)]="newUserPassword">
+</div>
+<div class="form-group">
+  <label for="newUserRole">User Role</label>
+  <input type="text" class="form-control" id="newUserRole" [(ngModel)]="newUserRole">
+</div>
+<div class="form-group">
+  <label for="newUserBalance">User Balance</label>
+  <input type="number" class="form-control" id="newUserBalance" [(ngModel)]="newUserBalance">
+</div>
+<div class="form-group">
+  <label for="newUserProfitMargin">User Profit Margin</label>
+  <input type="number" class="form-control" id="newUserProfitMargin" [(ngModel)]="newUserProfitMargin">
+</div>
+<button class="btn btn-success" (click)="createUser()">Add User</button>
+
+<!-- <button class="btn btn-primary" (click)="logNewUserData()">Log New User Data</button> -->
+
+
+<!-- Update User -->
+
+<div class="col-md-6 mt-3">
+  <h3>Update User</h3>
+
+  <!-- <div class="form-group">
+    <label for="userId">User Id</label>
+    <input type="number" class="form-control" id="userId" [(ngModel)]="userId">
+  </div>
+
+  <div class="form-group">
+    <label for="updateUserNumber">User Number</label>
+    <input type="number" class="form-control" id="updateUserNumber" [(ngModel)]="updateUserNumber">
+  </div> -->
+
+  <div class="form-group">
+    <label for="updateUserName">User Name</label>
+    <input type="text" class="form-control" id="updateUserName" [(ngModel)]="updateUserName">
+  </div>
+<!-- 
+  <div class="form-group">
+    <label for="updateUserEmail">User Email</label>
+    <input type="email" class="form-control" id="updateUserEmail" [(ngModel)]="updateUserEmail">
+  </div>
+
+  
+  <div class="form-group">
+    <label for="updateUserBalance">User Balance</label>
+    <input type="number" class="form-control" id="updateUserBalance" [(ngModel)]="updateUserBalance">
+  </div>
+  
+  
+  <div class="form-group">
+    <label for="updateUserProfitMargin">User Profit Margin</label>
+    <input type="number" class="form-control" id="updateUserProfitMargin" [(ngModel)]="updateUserProfitMargin">
+  </div>
+   -->
+  
+  <button class="btn btn-success" (click)="updateUser()">Update User</button>
+</div>
+
+
+</div>

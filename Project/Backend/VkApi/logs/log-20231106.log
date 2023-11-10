@@ -1,0 +1,1962 @@
+2023-11-06 15:21:33.545 [INF] App server is starting.
+2023-11-06 15:22:28.374 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:22:28.380 [INF] HeartBeat
+2023-11-06 15:22:28.382 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:22:31.195 [INF] -------------Request-Begin------------
+2023-11-06 15:22:31.195 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: {
+  "userNumber": 100001,
+  "userPassword": "lucy1"
+}
+2023-11-06 15:22:31.196 [INF] 
+
+2023-11-06 15:22:31.196 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T15:27:31.1672255+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJVc2VyTnVtYmVyIjoiMTAwMDAxIiwiVXNlclJvbGUiOiJBZG1pbiIsIlVzZXJFbWFpbCI6Imx1Y3kxQGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiVXNlck5hbWUiOiJMdWN5MSIsImV4cCI6MTY5OTI3MzY1MCwiaXNzIjoiVmtBcGkiLCJhdWQiOiJWa0FwaSJ9.xHBE5O7_t1qy0JTSB8bIN0k89PIzi3nWsAiXyqe_4fE","userEmail":"lucy1@gmail.com","userNumber":100001}}
+2023-11-06 15:22:31.197 [INF] -------------Request-End------------
+2023-11-06 15:24:23.388 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:24:23.392 [INF] HeartBeat
+2023-11-06 15:24:23.392 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:24:23.506 [INF] -------------Request-Begin------------
+2023-11-06 15:24:23.506 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: {
+  "userNumber": 100001,
+  "userPassword": "lucy1"
+}
+2023-11-06 15:24:23.506 [INF] 
+
+2023-11-06 15:24:23.506 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T15:29:23.5052533+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJVc2VyTnVtYmVyIjoiMTAwMDAxIiwiVXNlclJvbGUiOiJBZG1pbiIsIlVzZXJFbWFpbCI6Imx1Y3kxQGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiVXNlck5hbWUiOiJMdWN5MSIsImV4cCI6MTY5OTI3Mzc2MywiaXNzIjoiVmtBcGkiLCJhdWQiOiJWa0FwaSJ9.ruHZ6ayVIY8CSLd3cA3plirIH3LVIAZRFfmXFT2kgxI","userEmail":"lucy1@gmail.com","userNumber":100001}}
+2023-11-06 15:24:23.506 [INF] -------------Request-End------------
+2023-11-06 15:25:17.261 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:25:17.262 [INF] HeartBeat
+2023-11-06 15:25:17.291 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:25:17.299 [INF] LogAuthorizationFilter.OnAuthorization
+2023-11-06 15:25:17.300 [INF] LogResourceFilter.OnResourceExecuting
+2023-11-06 15:25:17.300 [INF] LogResourceFilter.OnResourceExecuting
+2023-11-06 15:25:17.301 [INF] LogActionFilter.OnActionExecuting
+2023-11-06 15:25:17.301 [INF] LogActionFilter.OnActionExecuted
+2023-11-06 15:25:17.304 [INF] LogResourceFilter.OnResourceExecuted
+2023-11-06 15:25:17.304 [INF] LogResourceFilter.OnResourceExecuted
+2023-11-06 15:25:17.305 [INF] -------------Request-Begin------------
+2023-11-06 15:25:17.305 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token/Test 
+QueryString:  
+Request Body: 
+2023-11-06 15:25:17.305 [INF] 
+
+2023-11-06 15:25:17.305 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token/Test 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-06 15:25:17.305 [INF] -------------Request-End------------
+2023-11-06 15:25:30.724 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:25:30.724 [INF] HeartBeat
+2023-11-06 15:25:30.724 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:25:30.786 [INF] LogAuthorizationFilter.OnAuthorization
+2023-11-06 15:25:30.786 [INF] LogResourceFilter.OnResourceExecuting
+2023-11-06 15:25:30.786 [INF] LogResourceFilter.OnResourceExecuting
+2023-11-06 15:25:30.786 [INF] LogActionFilter.OnActionExecuting
+2023-11-06 15:25:30.787 [INF] LogActionFilter.OnActionExecuted
+2023-11-06 15:25:30.787 [INF] LogResourceFilter.OnResourceExecuted
+2023-11-06 15:25:30.787 [INF] LogResourceFilter.OnResourceExecuted
+2023-11-06 15:25:30.787 [INF] -------------Request-Begin------------
+2023-11-06 15:25:30.787 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token/Test 
+QueryString:  
+Request Body: 
+2023-11-06 15:25:30.787 [INF] 
+
+2023-11-06 15:25:30.787 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token/Test 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-06 15:25:30.788 [INF] -------------Request-End------------
+2023-11-06 15:28:17.500 [INF] App server is starting.
+2023-11-06 15:28:36.464 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:28:36.469 [INF] HeartBeat
+2023-11-06 15:28:36.471 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:28:36.622 [INF] -------------Request-Begin------------
+2023-11-06 15:28:36.623 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 15:28:36.623 [INF] 
+
+2023-11-06 15:28:36.623 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 15:28:36.623 [INF] -------------Request-End------------
+2023-11-06 15:28:46.725 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:28:46.726 [INF] HeartBeat
+2023-11-06 15:28:46.726 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:28:49.043 [INF] -------------Request-Begin------------
+2023-11-06 15:28:49.043 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 15:28:49.043 [INF] 
+
+2023-11-06 15:28:49.043 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":1,"addressLine1":"Address 1 Line 1","addressLine2":"Address 1 Line 2","city":"City 1","county":"County 1","postalCode":12345},{"userId":2,"addressLine1":"Address 2 Line 1","addressLine2":"Address 2 Line 2","city":"City 2","county":"County 2","postalCode":67890}]}
+2023-11-06 15:28:49.043 [INF] -------------Request-End------------
+2023-11-06 15:29:22.806 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:29:22.806 [INF] HeartBeat
+2023-11-06 15:29:22.806 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:29:23.228 [INF] -------------Request-Begin------------
+2023-11-06 15:29:23.229 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: {
+  "userNumber": 100002,
+  "userPassword": "lucy1"
+}
+2023-11-06 15:29:23.229 [INF] 
+
+2023-11-06 15:29:23.229 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-11-06 15:29:23.229 [INF] -------------Request-End------------
+2023-11-06 15:29:37.996 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:29:37.996 [INF] HeartBeat
+2023-11-06 15:29:37.996 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:29:38.047 [INF] -------------Request-Begin------------
+2023-11-06 15:29:38.047 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: {
+  "userNumber": 100001,
+  "userPassword": "lucy1"
+}
+2023-11-06 15:29:38.047 [INF] 
+
+2023-11-06 15:29:38.047 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T15:34:38.0383286+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJVc2VyTnVtYmVyIjoiMTAwMDAxIiwiVXNlclJvbGUiOiJEZWFsZXIiLCJVc2VyRW1haWwiOiJsdWN5MUBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJEZWFsZXIiLCJVc2VyTmFtZSI6Ikx1Y3kxIiwiZXhwIjoxNjk5Mjc0MDc4LCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.nsQ1bzGz1pGHacd2ac-331euYBp0RYpg_hZIEei18e0","userEmail":"lucy1@gmail.com","userNumber":100001}}
+2023-11-06 15:29:38.048 [INF] -------------Request-End------------
+2023-11-06 15:30:02.121 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:30:02.121 [INF] HeartBeat
+2023-11-06 15:30:02.121 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:30:02.127 [INF] -------------Request-Begin------------
+2023-11-06 15:30:02.128 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-11-06 15:30:02.128 [INF] 
+
+2023-11-06 15:30:02.128 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-06 15:30:02.128 [INF] -------------Request-End------------
+2023-11-06 15:30:08.367 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:30:08.367 [INF] HeartBeat
+2023-11-06 15:30:08.367 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:30:08.369 [INF] -------------Request-Begin------------
+2023-11-06 15:30:08.369 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userNumber": 0,
+  "userName": "string",
+  "userEmail": "string",
+  "userPassword": "string",
+  "userRole": "string",
+  "userBalance": 0,
+  "userProfitMargin": 0
+}
+2023-11-06 15:30:08.369 [INF] 
+
+2023-11-06 15:30:08.369 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-06 15:30:08.369 [INF] -------------Request-End------------
+2023-11-06 15:30:59.911 [INF] App server is starting.
+2023-11-06 18:02:49.876 [INF] App server is starting.
+2023-11-06 20:25:30.516 [INF] App server is starting.
+2023-11-06 20:30:36.516 [INF] App server is starting.
+2023-11-06 20:30:53.428 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:30:53.432 [INF] HeartBeat
+2023-11-06 20:30:53.435 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:30:56.084 [INF] -------------Request-Begin------------
+2023-11-06 20:30:56.085 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: {
+  "userEmail": "lucy1@gmail.com",
+  "userPassword": "lucy1"
+}
+2023-11-06 20:30:56.085 [INF] 
+
+2023-11-06 20:30:56.085 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T20:35:56.0515433+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJVc2VyTnVtYmVyIjoiMTAwMDAxIiwiVXNlclJvbGUiOiJEZWFsZXIiLCJVc2VyRW1haWwiOiJsdWN5MUBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJEZWFsZXIiLCJVc2VyTmFtZSI6Ikx1Y3kxIiwiZXhwIjoxNjk5MjkyMTU1LCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0._OXtTiYYqCZhJyBBmzwvrd_7WnR-kpxNIiU1seznMrg","userEmail":"lucy1@gmail.com","userNumber":0}}
+2023-11-06 20:30:56.085 [INF] -------------Request-End------------
+2023-11-06 20:31:14.207 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:31:14.207 [INF] HeartBeat
+2023-11-06 20:31:14.207 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:31:14.503 [INF] -------------Request-Begin------------
+2023-11-06 20:31:14.503 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 20:31:14.503 [INF] 
+
+2023-11-06 20:31:14.503 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":1,"addressLine1":"Address 1 Line 1","addressLine2":"Address 1 Line 2","city":"City 1","county":"County 1","postalCode":12345},{"userId":2,"addressLine1":"Address 2 Line 1","addressLine2":"Address 2 Line 2","city":"City 2","county":"County 2","postalCode":67890}]}
+2023-11-06 20:31:14.504 [INF] -------------Request-End------------
+2023-11-06 20:44:32.412 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:44:32.412 [INF] HeartBeat
+2023-11-06 20:44:32.412 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:44:32.416 [INF] -------------Request-Begin------------
+2023-11-06 20:44:32.416 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 20:44:32.416 [INF] 
+
+2023-11-06 20:44:32.416 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 20:44:32.416 [INF] -------------Request-End------------
+2023-11-06 20:44:34.194 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:44:34.195 [INF] HeartBeat
+2023-11-06 20:44:34.195 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:44:34.196 [INF] -------------Request-Begin------------
+2023-11-06 20:44:34.196 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 20:44:34.196 [INF] 
+
+2023-11-06 20:44:34.196 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 20:44:34.196 [INF] -------------Request-End------------
+2023-11-06 20:45:04.052 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:45:04.053 [INF] HeartBeat
+2023-11-06 20:45:04.053 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:45:04.054 [INF] -------------Request-Begin------------
+2023-11-06 20:45:04.054 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 20:45:04.054 [INF] 
+
+2023-11-06 20:45:04.054 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 20:45:04.054 [INF] -------------Request-End------------
+2023-11-06 20:45:47.799 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:45:47.799 [INF] HeartBeat
+2023-11-06 20:45:47.802 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:45:47.826 [INF] -------------Request-Begin------------
+2023-11-06 20:45:47.826 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 20:45:47.826 [INF] 
+
+2023-11-06 20:45:47.826 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 20:45:47.826 [INF] -------------Request-End------------
+2023-11-06 20:47:40.898 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:47:40.899 [INF] HeartBeat
+2023-11-06 20:47:40.899 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:47:40.899 [INF] -------------Request-Begin------------
+2023-11-06 20:47:40.899 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 20:47:40.899 [INF] 
+
+2023-11-06 20:47:40.899 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 20:47:40.899 [INF] -------------Request-End------------
+2023-11-06 20:49:55.201 [INF] App server is starting.
+2023-11-06 20:50:10.673 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:50:10.678 [INF] HeartBeat
+2023-11-06 20:50:10.681 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:50:12.971 [INF] -------------Request-Begin------------
+2023-11-06 20:50:12.971 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: {
+  "userEmail": "lucy1@gmail.com",
+  "userPassword": "lucy1"
+}
+2023-11-06 20:50:12.972 [INF] 
+
+2023-11-06 20:50:12.972 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T20:55:12.9307603+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJVc2VyTnVtYmVyIjoiMTAwMDAxIiwiVXNlclJvbGUiOiJEZWFsZXIiLCJVc2VyRW1haWwiOiJsdWN5MUBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJEZWFsZXIiLCJVc2VyTmFtZSI6Ikx1Y3kxIiwiZXhwIjoxNjk5MjkzMzEyLCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.dSsCDPgb1pb4U4QRiDzCmdn8zL6Xphy-29g1baXA00w","userEmail":"lucy1@gmail.com"}}
+2023-11-06 20:50:12.972 [INF] -------------Request-End------------
+2023-11-06 20:51:25.051 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:51:25.051 [INF] HeartBeat
+2023-11-06 20:51:25.052 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:51:25.083 [INF] -------------Request-Begin------------
+2023-11-06 20:51:25.083 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 20:51:25.083 [INF] 
+
+2023-11-06 20:51:25.084 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 20:51:25.084 [INF] -------------Request-End------------
+2023-11-06 20:54:16.143 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:54:16.144 [INF] HeartBeat
+2023-11-06 20:54:16.144 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:54:16.148 [INF] -------------Request-Begin------------
+2023-11-06 20:54:16.148 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 20:54:16.148 [INF] 
+
+2023-11-06 20:54:16.148 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 20:54:16.148 [INF] -------------Request-End------------
+2023-11-06 20:54:35.347 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:54:35.347 [INF] HeartBeat
+2023-11-06 20:54:35.347 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:54:35.348 [INF] -------------Request-Begin------------
+2023-11-06 20:54:35.349 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 20:54:35.349 [INF] 
+
+2023-11-06 20:54:35.349 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 20:54:35.349 [INF] -------------Request-End------------
+2023-11-06 20:57:38.364 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:57:38.364 [INF] HeartBeat
+2023-11-06 20:57:38.364 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:57:38.365 [INF] -------------Request-Begin------------
+2023-11-06 20:57:38.365 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 20:57:38.365 [INF] 
+
+2023-11-06 20:57:38.365 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 20:57:38.365 [INF] -------------Request-End------------
+2023-11-06 20:57:46.658 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:57:46.658 [INF] HeartBeat
+2023-11-06 20:57:46.658 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:57:46.666 [INF] LogAuthorizationFilter.OnAuthorization
+2023-11-06 20:57:46.667 [INF] LogResourceFilter.OnResourceExecuting
+2023-11-06 20:57:46.667 [INF] LogResourceFilter.OnResourceExecuting
+2023-11-06 20:57:46.668 [INF] LogActionFilter.OnActionExecuting
+2023-11-06 20:57:46.669 [INF] LogActionFilter.OnActionExecuted
+2023-11-06 20:57:46.674 [INF] LogResourceFilter.OnResourceExecuted
+2023-11-06 20:57:46.674 [INF] LogResourceFilter.OnResourceExecuted
+2023-11-06 20:57:46.674 [INF] -------------Request-Begin------------
+2023-11-06 20:57:46.675 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token/Test 
+QueryString:  
+Request Body: 
+2023-11-06 20:57:46.675 [INF] 
+
+2023-11-06 20:57:46.675 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token/Test 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-06 20:57:46.675 [INF] -------------Request-End------------
+2023-11-06 20:59:48.680 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:59:48.680 [INF] HeartBeat
+2023-11-06 20:59:48.680 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:59:48.681 [INF] -------------Request-Begin------------
+2023-11-06 20:59:48.681 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 20:59:48.682 [INF] 
+
+2023-11-06 20:59:48.682 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 20:59:48.682 [INF] -------------Request-End------------
+2023-11-06 21:06:34.828 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:06:34.858 [INF] HeartBeat
+2023-11-06 21:06:34.858 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:06:34.860 [INF] -------------Request-Begin------------
+2023-11-06 21:06:34.860 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 21:06:34.860 [INF] 
+
+2023-11-06 21:06:34.860 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 21:06:34.860 [INF] -------------Request-End------------
+2023-11-06 21:09:48.267 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:09:48.268 [INF] HeartBeat
+2023-11-06 21:09:48.268 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:09:48.268 [INF] -------------Request-Begin------------
+2023-11-06 21:09:48.268 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 21:09:48.268 [INF] 
+
+2023-11-06 21:09:48.268 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 21:09:48.268 [INF] -------------Request-End------------
+2023-11-06 21:09:54.230 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:09:54.230 [INF] HeartBeat
+2023-11-06 21:09:54.230 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:09:54.231 [INF] -------------Request-Begin------------
+2023-11-06 21:09:54.231 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 21:09:54.231 [INF] 
+
+2023-11-06 21:09:54.231 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 21:09:54.231 [INF] -------------Request-End------------
+2023-11-06 21:10:17.909 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:10:17.909 [INF] HeartBeat
+2023-11-06 21:10:17.909 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:10:17.910 [INF] -------------Request-Begin------------
+2023-11-06 21:10:17.911 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 21:10:17.911 [INF] 
+
+2023-11-06 21:10:17.911 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 21:10:17.911 [INF] -------------Request-End------------
+2023-11-06 21:10:34.250 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:10:34.250 [INF] HeartBeat
+2023-11-06 21:10:34.250 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:10:34.281 [INF] -------------Request-Begin------------
+2023-11-06 21:10:34.281 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Orders 
+QueryString:  
+Request Body: 
+2023-11-06 21:10:34.281 [INF] 
+
+2023-11-06 21:10:34.281 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Orders 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:10:34.281 [INF] -------------Request-End------------
+2023-11-06 21:10:43.534 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:10:43.534 [INF] HeartBeat
+2023-11-06 21:10:43.534 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:10:43.546 [INF] -------------Request-Begin------------
+2023-11-06 21:10:43.546 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Orders 
+QueryString:  
+Request Body: 
+2023-11-06 21:10:43.546 [INF] 
+
+2023-11-06 21:10:43.547 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Orders 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:10:43.547 [INF] -------------Request-End------------
+2023-11-06 21:10:50.469 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:10:50.469 [INF] HeartBeat
+2023-11-06 21:10:50.469 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:10:50.472 [INF] -------------Request-Begin------------
+2023-11-06 21:10:50.472 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:10:50.472 [INF] 
+
+2023-11-06 21:10:50.472 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:10:50.472 [INF] -------------Request-End------------
+2023-11-06 21:11:10.912 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:11:10.915 [INF] HeartBeat
+2023-11-06 21:11:10.916 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:11:10.985 [INF] -------------Request-Begin------------
+2023-11-06 21:11:10.985 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:11:10.985 [INF] 
+
+2023-11-06 21:11:10.985 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:11:10.985 [INF] -------------Request-End------------
+2023-11-06 21:11:35.509 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:11:35.515 [INF] HeartBeat
+2023-11-06 21:11:35.515 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:11:35.518 [INF] -------------Request-Begin------------
+2023-11-06 21:11:35.519 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:11:35.519 [INF] 
+
+2023-11-06 21:11:35.519 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:11:35.519 [INF] -------------Request-End------------
+2023-11-06 21:11:58.062 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:11:58.062 [INF] HeartBeat
+2023-11-06 21:11:58.062 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:11:58.178 [INF] -------------Request-Begin------------
+2023-11-06 21:11:58.178 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: {
+  "userEmail": "lucy1@gmail.com",
+  "userPassword": "lucy1"
+}
+2023-11-06 21:11:58.178 [INF] 
+
+2023-11-06 21:11:58.178 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T21:16:58.1776081+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJVc2VyTnVtYmVyIjoiMTAwMDAxIiwiVXNlclJvbGUiOiJEZWFsZXIiLCJVc2VyRW1haWwiOiJsdWN5MUBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJEZWFsZXIiLCJVc2VyTmFtZSI6Ikx1Y3kxIiwiZXhwIjoxNjk5Mjk0NjE4LCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.vCPdvmBWGMM3zOF_JR4ec2Wzon1nrGJAGuGCq0ZWFZU","userEmail":"lucy1@gmail.com"}}
+2023-11-06 21:11:58.178 [INF] -------------Request-End------------
+2023-11-06 21:12:17.722 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:12:17.722 [INF] HeartBeat
+2023-11-06 21:12:17.723 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:12:18.001 [INF] -------------Request-Begin------------
+2023-11-06 21:12:18.001 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Orders 
+QueryString:  
+Request Body: 
+2023-11-06 21:12:18.001 [INF] 
+
+2023-11-06 21:12:18.001 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Orders 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":1,"orderStatus":"Pending","orderPaymentMethod":"Credit Card","orderAmount":100},{"userId":2,"orderStatus":"Completed","orderPaymentMethod":"PayPal","orderAmount":75}]}
+2023-11-06 21:12:18.001 [INF] -------------Request-End------------
+2023-11-06 21:12:23.756 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:12:23.756 [INF] HeartBeat
+2023-11-06 21:12:23.757 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:12:23.757 [INF] -------------Request-Begin------------
+2023-11-06 21:12:23.757 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Orders 
+QueryString:  
+Request Body: 
+2023-11-06 21:12:23.757 [INF] 
+
+2023-11-06 21:12:23.757 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Orders 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:12:23.757 [INF] -------------Request-End------------
+2023-11-06 21:12:35.706 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:12:35.706 [INF] HeartBeat
+2023-11-06 21:12:35.706 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:12:35.753 [INF] -------------Request-Begin------------
+2023-11-06 21:12:35.753 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/UserBaskets/1 
+QueryString:  
+Request Body: 
+2023-11-06 21:12:35.753 [INF] 
+
+2023-11-06 21:12:35.753 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/UserBaskets/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-11-06 21:12:35.753 [INF] -------------Request-End------------
+2023-11-06 21:12:41.605 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:12:41.605 [INF] HeartBeat
+2023-11-06 21:12:41.605 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:12:41.608 [INF] -------------Request-Begin------------
+2023-11-06 21:12:41.608 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/UserBaskets/1 
+QueryString:  
+Request Body: 
+2023-11-06 21:12:41.608 [INF] 
+
+2023-11-06 21:12:41.608 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/UserBaskets/1 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:12:41.608 [INF] -------------Request-End------------
+2023-11-06 21:13:09.165 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:13:09.168 [INF] HeartBeat
+2023-11-06 21:13:09.169 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:13:09.262 [INF] -------------Request-Begin------------
+2023-11-06 21:13:09.263 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:13:09.263 [INF] 
+
+2023-11-06 21:13:09.263 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":1,"addressLine1":"Address 1 Line 1","addressLine2":"Address 1 Line 2","city":"City 1","county":"County 1","postalCode":12345},{"userId":2,"addressLine1":"Address 2 Line 1","addressLine2":"Address 2 Line 2","city":"City 2","county":"County 2","postalCode":67890}]}
+2023-11-06 21:13:09.263 [INF] -------------Request-End------------
+2023-11-06 21:13:17.600 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:13:17.600 [INF] HeartBeat
+2023-11-06 21:13:17.600 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:13:17.601 [INF] -------------Request-Begin------------
+2023-11-06 21:13:17.601 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:13:17.601 [INF] 
+
+2023-11-06 21:13:17.601 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:13:17.601 [INF] -------------Request-End------------
+2023-11-06 21:14:16.882 [INF] App server is starting.
+2023-11-06 21:14:36.850 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:14:36.854 [INF] HeartBeat
+2023-11-06 21:14:36.856 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:14:39.358 [INF] -------------Request-Begin------------
+2023-11-06 21:14:39.359 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:14:39.359 [INF] 
+
+2023-11-06 21:14:39.359 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":1,"addressLine1":"Address 1 Line 1","addressLine2":"Address 1 Line 2","city":"City 1","county":"County 1","postalCode":12345},{"userId":2,"addressLine1":"Address 2 Line 1","addressLine2":"Address 2 Line 2","city":"City 2","county":"County 2","postalCode":67890}]}
+2023-11-06 21:14:39.359 [INF] -------------Request-End------------
+2023-11-06 21:14:53.341 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:14:53.341 [INF] HeartBeat
+2023-11-06 21:14:53.342 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:14:53.368 [INF] -------------Request-Begin------------
+2023-11-06 21:14:53.368 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:14:53.368 [INF] 
+
+2023-11-06 21:14:53.368 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:14:53.368 [INF] -------------Request-End------------
+2023-11-06 21:15:14.325 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:15:14.325 [INF] HeartBeat
+2023-11-06 21:15:14.325 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:15:14.330 [INF] -------------Request-Begin------------
+2023-11-06 21:15:14.330 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-11-06 21:15:14.330 [INF] 
+
+2023-11-06 21:15:14.330 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:15:14.330 [INF] -------------Request-End------------
+2023-11-06 21:16:30.134 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:16:30.134 [INF] HeartBeat
+2023-11-06 21:16:30.134 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:16:30.135 [INF] -------------Request-Begin------------
+2023-11-06 21:16:30.135 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:16:30.135 [INF] 
+
+2023-11-06 21:16:30.135 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:16:30.135 [INF] -------------Request-End------------
+2023-11-06 21:16:48.569 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:16:48.569 [INF] HeartBeat
+2023-11-06 21:16:48.570 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:16:48.570 [INF] -------------Request-Begin------------
+2023-11-06 21:16:48.570 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:16:48.570 [INF] 
+
+2023-11-06 21:16:48.570 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:16:48.570 [INF] -------------Request-End------------
+2023-11-06 21:16:54.031 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:16:54.031 [INF] HeartBeat
+2023-11-06 21:16:54.031 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:16:54.032 [INF] -------------Request-Begin------------
+2023-11-06 21:16:54.032 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-11-06 21:16:54.032 [INF] 
+
+2023-11-06 21:16:54.032 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:16:54.032 [INF] -------------Request-End------------
+2023-11-06 21:17:01.091 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:17:01.091 [INF] HeartBeat
+2023-11-06 21:17:01.091 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:17:01.091 [INF] -------------Request-Begin------------
+2023-11-06 21:17:01.091 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-11-06 21:17:01.091 [INF] 
+
+2023-11-06 21:17:01.091 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:17:01.091 [INF] -------------Request-End------------
+2023-11-06 21:17:57.015 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:17:57.016 [INF] HeartBeat
+2023-11-06 21:17:57.016 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:17:57.105 [INF] -------------Request-Begin------------
+2023-11-06 21:17:57.105 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:17:57.105 [INF] 
+
+2023-11-06 21:17:57.105 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":1,"addressLine1":"Address 1 Line 1","addressLine2":"Address 1 Line 2","city":"City 1","county":"County 1","postalCode":12345},{"userId":2,"addressLine1":"Address 2 Line 1","addressLine2":"Address 2 Line 2","city":"City 2","county":"County 2","postalCode":67890}]}
+2023-11-06 21:17:57.105 [INF] -------------Request-End------------
+2023-11-06 21:17:59.815 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:17:59.815 [INF] HeartBeat
+2023-11-06 21:17:59.815 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:17:59.816 [INF] -------------Request-Begin------------
+2023-11-06 21:17:59.816 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-11-06 21:17:59.816 [INF] 
+
+2023-11-06 21:17:59.816 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:17:59.817 [INF] -------------Request-End------------
+2023-11-06 21:22:48.969 [INF] App server is starting.
+2023-11-06 21:22:56.149 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:22:56.153 [INF] HeartBeat
+2023-11-06 21:22:56.155 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:22:56.294 [INF] -------------Request-Begin------------
+2023-11-06 21:22:56.295 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:22:56.295 [INF] 
+
+2023-11-06 21:22:56.295 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:22:56.295 [INF] -------------Request-End------------
+2023-11-06 21:23:01.783 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:23:01.783 [INF] HeartBeat
+2023-11-06 21:23:01.784 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:23:01.801 [INF] -------------Request-Begin------------
+2023-11-06 21:23:01.801 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:23:01.801 [INF] 
+
+2023-11-06 21:23:01.802 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:23:01.802 [INF] -------------Request-End------------
+2023-11-06 21:23:12.918 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:23:12.918 [INF] HeartBeat
+2023-11-06 21:23:12.918 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:23:12.921 [INF] -------------Request-Begin------------
+2023-11-06 21:23:12.921 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:23:12.921 [INF] 
+
+2023-11-06 21:23:12.921 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:23:12.921 [INF] -------------Request-End------------
+2023-11-06 21:23:15.472 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:23:15.472 [INF] HeartBeat
+2023-11-06 21:23:15.472 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:23:15.670 [INF] -------------Request-Begin------------
+2023-11-06 21:23:15.670 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:23:15.670 [INF] 
+
+2023-11-06 21:23:15.670 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:23:15.671 [INF] -------------Request-End------------
+2023-11-06 21:23:36.197 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:23:36.197 [INF] HeartBeat
+2023-11-06 21:23:36.197 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:23:38.430 [INF] -------------Request-Begin------------
+2023-11-06 21:23:38.430 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: {
+  "userEmail": "lucy1@gmail.com",
+  "userPassword": "lucy1"
+}
+2023-11-06 21:23:38.430 [INF] 
+
+2023-11-06 21:23:38.431 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T21:28:38.4043231+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJVc2VyTnVtYmVyIjoiMTAwMDAxIiwiVXNlclJvbGUiOiJEZWFsZXIiLCJVc2VyRW1haWwiOiJsdWN5MUBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJEZWFsZXIiLCJVc2VyTmFtZSI6Ikx1Y3kxIiwiZXhwIjoxNjk5Mjk1MzE4LCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.6dukiBM3xybr5h1WVOLKMtCSrvCYXbMquYI3wID8BBI","userEmail":"lucy1@gmail.com"}}
+2023-11-06 21:23:38.431 [INF] -------------Request-End------------
+2023-11-06 21:23:57.042 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:23:57.042 [INF] HeartBeat
+2023-11-06 21:23:57.042 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:23:57.284 [INF] -------------Request-Begin------------
+2023-11-06 21:23:57.284 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:23:57.284 [INF] 
+
+2023-11-06 21:23:57.285 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":1,"addressLine1":"Address 1 Line 1","addressLine2":"Address 1 Line 2","city":"City 1","county":"County 1","postalCode":12345},{"userId":2,"addressLine1":"Address 2 Line 1","addressLine2":"Address 2 Line 2","city":"City 2","county":"County 2","postalCode":67890}]}
+2023-11-06 21:23:57.285 [INF] -------------Request-End------------
+2023-11-06 21:24:01.693 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:24:01.694 [INF] HeartBeat
+2023-11-06 21:24:01.694 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:24:01.694 [INF] -------------Request-Begin------------
+2023-11-06 21:24:01.694 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:24:01.694 [INF] 
+
+2023-11-06 21:24:01.694 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:24:01.694 [INF] -------------Request-End------------
+2023-11-06 21:24:05.842 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:24:05.842 [INF] HeartBeat
+2023-11-06 21:24:05.842 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:24:05.842 [INF] -------------Request-Begin------------
+2023-11-06 21:24:05.843 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:24:05.843 [INF] 
+
+2023-11-06 21:24:05.843 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:24:05.843 [INF] -------------Request-End------------
+2023-11-06 21:24:06.418 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:24:06.419 [INF] HeartBeat
+2023-11-06 21:24:06.419 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:24:06.419 [INF] -------------Request-Begin------------
+2023-11-06 21:24:06.419 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:24:06.419 [INF] 
+
+2023-11-06 21:24:06.419 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:24:06.419 [INF] -------------Request-End------------
+2023-11-06 21:24:06.611 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:24:06.611 [INF] HeartBeat
+2023-11-06 21:24:06.611 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:24:06.612 [INF] -------------Request-Begin------------
+2023-11-06 21:24:06.612 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:24:06.612 [INF] 
+
+2023-11-06 21:24:06.612 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:24:06.612 [INF] -------------Request-End------------
+2023-11-06 21:24:06.791 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:24:06.791 [INF] HeartBeat
+2023-11-06 21:24:06.791 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:24:06.792 [INF] -------------Request-Begin------------
+2023-11-06 21:24:06.792 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:24:06.793 [INF] 
+
+2023-11-06 21:24:06.793 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:24:06.793 [INF] -------------Request-End------------
+2023-11-06 21:24:06.983 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:24:06.983 [INF] HeartBeat
+2023-11-06 21:24:06.983 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:24:06.984 [INF] -------------Request-Begin------------
+2023-11-06 21:24:06.984 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:24:06.984 [INF] 
+
+2023-11-06 21:24:06.984 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:24:06.984 [INF] -------------Request-End------------
+2023-11-06 21:24:07.158 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:24:07.158 [INF] HeartBeat
+2023-11-06 21:24:07.158 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:24:07.158 [INF] -------------Request-Begin------------
+2023-11-06 21:24:07.159 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:24:07.159 [INF] 
+
+2023-11-06 21:24:07.159 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:24:07.159 [INF] -------------Request-End------------
+2023-11-06 21:24:07.329 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:24:07.329 [INF] HeartBeat
+2023-11-06 21:24:07.329 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:24:07.330 [INF] -------------Request-Begin------------
+2023-11-06 21:24:07.330 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:24:07.330 [INF] 
+
+2023-11-06 21:24:07.331 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:24:07.331 [INF] -------------Request-End------------
+2023-11-06 21:24:07.489 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:24:07.489 [INF] HeartBeat
+2023-11-06 21:24:07.489 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:24:07.489 [INF] -------------Request-Begin------------
+2023-11-06 21:24:07.489 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-06 21:24:07.490 [INF] 
+
+2023-11-06 21:24:07.490 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:24:07.490 [INF] -------------Request-End------------
+2023-11-06 21:25:59.066 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:25:59.068 [INF] HeartBeat
+2023-11-06 21:25:59.069 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:25:59.070 [INF] -------------Request-Begin------------
+2023-11-06 21:25:59.070 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 21:25:59.070 [INF] 
+
+2023-11-06 21:25:59.070 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 21:25:59.070 [INF] -------------Request-End------------
+2023-11-06 21:26:57.460 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:26:57.460 [INF] HeartBeat
+2023-11-06 21:26:57.460 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:26:57.460 [INF] -------------Request-Begin------------
+2023-11-06 21:26:57.461 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 21:26:57.461 [INF] 
+
+2023-11-06 21:26:57.461 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 21:26:57.461 [INF] -------------Request-End------------
+2023-11-06 21:39:39.614 [INF] App server is starting.
+2023-11-06 21:39:56.970 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:39:56.975 [INF] HeartBeat
+2023-11-06 21:39:56.977 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:39:57.116 [INF] -------------Request-Begin------------
+2023-11-06 21:39:57.117 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 21:39:57.117 [INF] 
+
+2023-11-06 21:39:57.117 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 21:39:57.117 [INF] -------------Request-End------------
+2023-11-06 21:40:19.919 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:40:19.921 [INF] HeartBeat
+2023-11-06 21:40:19.949 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:40:20.013 [INF] -------------Request-Begin------------
+2023-11-06 21:40:20.013 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 21:40:20.013 [INF] 
+
+2023-11-06 21:40:20.013 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 21:40:20.013 [INF] -------------Request-End------------
+2023-11-06 21:41:56.316 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:41:56.319 [INF] HeartBeat
+2023-11-06 21:41:56.319 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:41:56.323 [INF] -------------Request-Begin------------
+2023-11-06 21:41:56.323 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 21:41:56.323 [INF] 
+
+2023-11-06 21:41:56.324 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 21:41:56.324 [INF] -------------Request-End------------
+2023-11-06 21:44:40.458 [INF] App server is starting.
+2023-11-06 21:44:55.535 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:44:55.539 [INF] HeartBeat
+2023-11-06 21:44:55.541 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:44:57.617 [INF] -------------Request-Begin------------
+2023-11-06 21:44:57.618 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+Request Body: {
+  "userEmail": "lucy1",
+  "userPassword": "string"
+}
+2023-11-06 21:44:57.618 [INF] 
+
+2023-11-06 21:44:57.619 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-11-06 21:44:57.619 [INF] -------------Request-End------------
+2023-11-06 21:45:34.208 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:45:34.208 [INF] HeartBeat
+2023-11-06 21:45:34.208 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:45:34.222 [INF] -------------Request-Begin------------
+2023-11-06 21:45:34.222 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+Request Body: 
+2023-11-06 21:45:34.223 [INF] 
+
+2023-11-06 21:45:34.223 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 21:45:34.223 [INF] -------------Request-End------------
+2023-11-06 21:47:33.682 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:47:33.682 [INF] HeartBeat
+2023-11-06 21:47:33.682 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:47:33.688 [INF] -------------Request-Begin------------
+2023-11-06 21:47:33.688 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: / 
+QueryString:  
+Request Body: 
+2023-11-06 21:47:33.688 [INF] 
+
+2023-11-06 21:47:33.688 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: / 
+QueryString:  
+StatusCode: 404 
+Response Body: 
+2023-11-06 21:47:33.688 [INF] -------------Request-End------------
+2023-11-06 21:48:20.602 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:48:20.602 [INF] HeartBeat
+2023-11-06 21:48:20.603 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:48:20.604 [INF] -------------Request-Begin------------
+2023-11-06 21:48:20.604 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 21:48:20.604 [INF] 
+
+2023-11-06 21:48:20.604 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 404 
+Response Body: 
+2023-11-06 21:48:20.604 [INF] -------------Request-End------------
+2023-11-06 21:48:37.329 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:48:37.329 [INF] HeartBeat
+2023-11-06 21:48:37.329 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:48:37.330 [INF] -------------Request-Begin------------
+2023-11-06 21:48:37.330 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 21:48:37.330 [INF] 
+
+2023-11-06 21:48:37.330 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 404 
+Response Body: 
+2023-11-06 21:48:37.330 [INF] -------------Request-End------------
+2023-11-06 21:49:15.418 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:49:15.418 [INF] HeartBeat
+2023-11-06 21:49:15.418 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:49:15.419 [INF] -------------Request-Begin------------
+2023-11-06 21:49:15.419 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+Request Body: 
+2023-11-06 21:49:15.419 [INF] 
+
+2023-11-06 21:49:15.419 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Token 
+QueryString:  
+StatusCode: 404 
+Response Body: 
+2023-11-06 21:49:15.419 [INF] -------------Request-End------------
+2023-11-06 21:52:50.327 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:52:50.329 [INF] HeartBeat
+2023-11-06 21:52:50.331 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:52:50.704 [INF] -------------Request-Begin------------
+2023-11-06 21:52:50.704 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+Request Body: {
+  "userEmail": "lucy1@gmail.com",
+  "userPassword": "lucy1"
+}
+2023-11-06 21:52:50.704 [INF] 
+
+2023-11-06 21:52:50.704 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T21:57:50.6953215+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJVc2VyTnVtYmVyIjoiMTAwMDAxIiwiVXNlclJvbGUiOiJEZWFsZXIiLCJVc2VyRW1haWwiOiJsdWN5MUBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJEZWFsZXIiLCJVc2VyTmFtZSI6Ikx1Y3kxIiwiZXhwIjoxNjk5Mjk3MDcwLCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.fodFDE3rblM0apJ_S0s9JWyMEJaOWKmIXln_KdtZKdU","userEmail":"lucy1@gmail.com"}}
+2023-11-06 21:52:50.704 [INF] -------------Request-End------------
+2023-11-06 21:53:30.402 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:53:30.402 [INF] HeartBeat
+2023-11-06 21:53:30.402 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:53:30.403 [INF] -------------Request-Begin------------
+2023-11-06 21:53:30.403 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+Request Body: 
+2023-11-06 21:53:30.403 [INF] 
+
+2023-11-06 21:53:30.403 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 21:53:30.403 [INF] -------------Request-End------------
+2023-11-06 21:54:59.864 [INF] App server is starting.
+2023-11-06 21:55:13.705 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:55:13.710 [INF] HeartBeat
+2023-11-06 21:55:13.712 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:55:13.858 [INF] LogAuthorizationFilter.OnAuthorization
+2023-11-06 21:55:13.859 [INF] LogResourceFilter.OnResourceExecuting
+2023-11-06 21:55:13.860 [INF] LogResourceFilter.OnResourceExecuting
+2023-11-06 21:55:13.862 [INF] LogActionFilter.OnActionExecuting
+2023-11-06 21:55:13.864 [INF] LogActionFilter.OnActionExecuted
+2023-11-06 21:55:13.877 [INF] LogResourceFilter.OnResourceExecuted
+2023-11-06 21:55:13.877 [INF] LogResourceFilter.OnResourceExecuted
+2023-11-06 21:55:13.881 [INF] -------------Request-Begin------------
+2023-11-06 21:55:13.881 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens/Test 
+QueryString:  
+Request Body: 
+2023-11-06 21:55:13.881 [INF] 
+
+2023-11-06 21:55:13.882 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens/Test 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-06 21:55:13.882 [INF] -------------Request-End------------
+2023-11-06 21:55:18.682 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:55:18.682 [INF] HeartBeat
+2023-11-06 21:55:18.682 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:55:18.689 [INF] LogAuthorizationFilter.OnAuthorization
+2023-11-06 21:55:18.689 [INF] LogResourceFilter.OnResourceExecuting
+2023-11-06 21:55:18.690 [INF] LogResourceFilter.OnResourceExecuting
+2023-11-06 21:55:18.690 [INF] LogActionFilter.OnActionExecuting
+2023-11-06 21:55:18.691 [INF] LogActionFilter.OnActionExecuted
+2023-11-06 21:55:18.694 [INF] LogResourceFilter.OnResourceExecuted
+2023-11-06 21:55:18.694 [INF] LogResourceFilter.OnResourceExecuted
+2023-11-06 21:55:18.695 [INF] -------------Request-Begin------------
+2023-11-06 21:55:18.696 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens/Test 
+QueryString:  
+Request Body: 
+2023-11-06 21:55:18.696 [INF] 
+
+2023-11-06 21:55:18.696 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens/Test 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-06 21:55:18.696 [INF] -------------Request-End------------
+2023-11-06 21:55:44.380 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:55:44.380 [INF] HeartBeat
+2023-11-06 21:55:44.380 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:55:46.673 [INF] -------------Request-Begin------------
+2023-11-06 21:55:46.674 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+Request Body: {
+  "userEmail": "lucy1@gmail.com",
+  "userPassword": "lucy1"
+}
+2023-11-06 21:55:46.674 [INF] 
+
+2023-11-06 21:55:46.674 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T22:00:46.655987+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJVc2VyTnVtYmVyIjoiMTAwMDAxIiwiVXNlclJvbGUiOiJEZWFsZXIiLCJVc2VyRW1haWwiOiJsdWN5MUBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJEZWFsZXIiLCJVc2VyTmFtZSI6Ikx1Y3kxIiwiZXhwIjoxNjk5Mjk3MjQ2LCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.D71RgJUqQ5vAtbw5oTqMC-mjgQDBnkeyTo7JAQqowGQ","userEmail":"lucy1@gmail.com"}}
+2023-11-06 21:55:46.674 [INF] -------------Request-End------------
+2023-11-06 21:55:53.907 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:55:53.908 [INF] HeartBeat
+2023-11-06 21:55:53.908 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:55:53.909 [INF] -------------Request-Begin------------
+2023-11-06 21:55:53.909 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+Request Body: 
+2023-11-06 21:55:53.909 [INF] 
+
+2023-11-06 21:55:53.909 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 21:55:53.909 [INF] -------------Request-End------------
+2023-11-06 21:56:27.222 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:56:27.222 [INF] HeartBeat
+2023-11-06 21:56:27.222 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:56:27.223 [INF] -------------Request-Begin------------
+2023-11-06 21:56:27.223 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+Request Body: 
+2023-11-06 21:56:27.224 [INF] 
+
+2023-11-06 21:56:27.225 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 21:56:27.225 [INF] -------------Request-End------------
+2023-11-06 21:56:59.704 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:56:59.708 [INF] HeartBeat
+2023-11-06 21:56:59.708 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:56:59.771 [INF] -------------Request-Begin------------
+2023-11-06 21:56:59.771 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-11-06 21:56:59.772 [INF] 
+
+2023-11-06 21:56:59.772 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-06 21:56:59.772 [INF] -------------Request-End------------
+2023-11-06 21:57:13.492 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:57:13.492 [INF] HeartBeat
+2023-11-06 21:57:13.492 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:57:13.557 [INF] -------------Request-Begin------------
+2023-11-06 21:57:13.557 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-11-06 21:57:13.557 [INF] 
+
+2023-11-06 21:57:13.557 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-06 21:57:13.557 [INF] -------------Request-End------------
+2023-11-06 21:57:17.776 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:57:17.777 [INF] HeartBeat
+2023-11-06 21:57:17.777 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:57:17.858 [INF] -------------Request-Begin------------
+2023-11-06 21:57:17.858 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+Request Body: {
+  "userEmail": "lucy1@gmail.com",
+  "userPassword": "lucy1"
+}
+2023-11-06 21:57:17.858 [INF] 
+
+2023-11-06 21:57:17.858 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T22:02:17.8573412+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJVc2VyTnVtYmVyIjoiMTAwMDAxIiwiVXNlclJvbGUiOiJEZWFsZXIiLCJVc2VyRW1haWwiOiJsdWN5MUBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJEZWFsZXIiLCJVc2VyTmFtZSI6Ikx1Y3kxIiwiZXhwIjoxNjk5Mjk3MzM3LCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.RWHXK4UZi1C5pWdB9N_sP5X1DIVwn7R56xqSFPLlM2Q","userEmail":"lucy1@gmail.com"}}
+2023-11-06 21:57:17.858 [INF] -------------Request-End------------
+2023-11-06 21:57:40.889 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:57:40.892 [INF] HeartBeat
+2023-11-06 21:57:40.894 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:57:40.948 [INF] -------------Request-Begin------------
+2023-11-06 21:57:40.948 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+Request Body: {
+  "userEmail": "lucy2@gmail.com",
+  "userPassword": "lucy2"
+}
+2023-11-06 21:57:40.948 [INF] 
+
+2023-11-06 21:57:40.949 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T22:02:40.9474289+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjIiLCJVc2VyTnVtYmVyIjoiMTAwMDAyIiwiVXNlclJvbGUiOiJBZG1pbiIsIlVzZXJFbWFpbCI6Imx1Y3kyQGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiVXNlck5hbWUiOiJMdWN5MiIsImV4cCI6MTY5OTI5NzM2MCwiaXNzIjoiVmtBcGkiLCJhdWQiOiJWa0FwaSJ9.5BliZHWsL-po3O7pAtxhrZYJm8BLTHdOLp7NDX4UiY0","userEmail":"lucy2@gmail.com"}}
+2023-11-06 21:57:40.949 [INF] -------------Request-End------------
+2023-11-06 21:58:05.468 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:58:05.468 [INF] HeartBeat
+2023-11-06 21:58:05.469 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:58:05.545 [INF] -------------Request-Begin------------
+2023-11-06 21:58:05.545 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-11-06 21:58:05.545 [INF] 
+
+2023-11-06 21:58:05.545 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userNumber":100001,"userName":"Lucy1","userEmail":"lucy1@gmail.com","userPassword":"bfca5277c883b619adf051f25604411a","userPasswordRetryCount":0,"userRole":"Dealer","userBalance":500,"userProfitMargin":0,"addresses":[],"orders":[]},{"userNumber":100002,"userName":"Lucy2","userEmail":"lucy2@gmail.com","userPassword":"f315edbfd7906ba36d95c014a754cfd4","userPasswordRetryCount":1,"userRole":"Admin","userBalance":500,"userProfitMargin":0,"addresses":[],"orders":[]}]}
+2023-11-06 21:58:05.545 [INF] -------------Request-End------------
+2023-11-06 21:58:13.286 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:58:13.286 [INF] HeartBeat
+2023-11-06 21:58:13.286 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:58:13.294 [INF] -------------Request-Begin------------
+2023-11-06 21:58:13.295 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-11-06 21:58:13.295 [INF] 
+
+2023-11-06 21:58:13.295 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:58:13.295 [INF] -------------Request-End------------
+2023-11-06 21:58:51.454 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:58:51.454 [INF] HeartBeat
+2023-11-06 21:58:51.454 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:58:51.454 [INF] LogAuthorizationFilter.OnAuthorization
+2023-11-06 21:58:51.454 [INF] LogResourceFilter.OnResourceExecuting
+2023-11-06 21:58:51.455 [INF] LogResourceFilter.OnResourceExecuting
+2023-11-06 21:58:51.455 [INF] LogActionFilter.OnActionExecuting
+2023-11-06 21:58:51.455 [INF] LogActionFilter.OnActionExecuted
+2023-11-06 21:58:51.455 [INF] LogResourceFilter.OnResourceExecuted
+2023-11-06 21:58:51.455 [INF] LogResourceFilter.OnResourceExecuted
+2023-11-06 21:58:51.456 [INF] -------------Request-Begin------------
+2023-11-06 21:58:51.456 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens/Test 
+QueryString:  
+Request Body: 
+2023-11-06 21:58:51.456 [INF] 
+
+2023-11-06 21:58:51.456 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens/Test 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-06 21:58:51.456 [INF] -------------Request-End------------
+2023-11-06 21:59:24.548 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:59:24.548 [INF] HeartBeat
+2023-11-06 21:59:24.551 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:59:24.553 [INF] -------------Request-Begin------------
+2023-11-06 21:59:24.553 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens/Test 
+QueryString:  
+Request Body: 
+2023-11-06 21:59:24.553 [INF] 
+
+2023-11-06 21:59:24.553 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Tokens/Test 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 21:59:24.554 [INF] -------------Request-End------------
+2023-11-06 22:10:59.134 [INF] App server is starting.
+2023-11-06 22:11:09.560 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:11:09.564 [INF] HeartBeat
+2023-11-06 22:11:09.566 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:11:11.633 [INF] -------------Request-Begin------------
+2023-11-06 22:11:11.634 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-11-06 22:11:11.634 [INF] 
+
+2023-11-06 22:11:11.635 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userNumber":100001,"userName":"Lucy1","userEmail":"lucy1@gmail.com","userPassword":"bfca5277c883b619adf051f25604411a","userPasswordRetryCount":0,"userRole":"Dealer","userBalance":500,"userProfitMargin":0,"addresses":[],"orders":[]},{"userNumber":100002,"userName":"Lucy2","userEmail":"lucy2@gmail.com","userPassword":"f315edbfd7906ba36d95c014a754cfd4","userPasswordRetryCount":1,"userRole":"Admin","userBalance":500,"userProfitMargin":0,"addresses":[],"orders":[]}]}
+2023-11-06 22:11:11.635 [INF] -------------Request-End------------
+2023-11-06 22:11:17.514 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:11:17.514 [INF] HeartBeat
+2023-11-06 22:11:17.514 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:11:17.608 [INF] -------------Request-Begin------------
+2023-11-06 22:11:17.608 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-11-06 22:11:17.608 [INF] 
+
+2023-11-06 22:11:17.608 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userNumber":100001,"userName":"Lucy1","userEmail":"lucy1@gmail.com","userPassword":"bfca5277c883b619adf051f25604411a","userPasswordRetryCount":0,"userRole":"Dealer","userBalance":500,"userProfitMargin":0,"addresses":[],"orders":[]},{"userNumber":100002,"userName":"Lucy2","userEmail":"lucy2@gmail.com","userPassword":"f315edbfd7906ba36d95c014a754cfd4","userPasswordRetryCount":1,"userRole":"Admin","userBalance":500,"userProfitMargin":0,"addresses":[],"orders":[]}]}
+2023-11-06 22:11:17.608 [INF] -------------Request-End------------
+2023-11-06 22:11:54.997 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:11:54.998 [INF] HeartBeat
+2023-11-06 22:11:54.998 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:11:55.002 [INF] -------------Request-Begin------------
+2023-11-06 22:11:55.002 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-11-06 22:11:55.002 [INF] 
+
+2023-11-06 22:11:55.003 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 405 
+Response Body: 
+2023-11-06 22:11:55.003 [INF] -------------Request-End------------

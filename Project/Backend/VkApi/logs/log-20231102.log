@@ -1,0 +1,1009 @@
+2023-11-02 14:30:55.739 [INF] App server is starting.
+2023-11-02 14:31:04.562 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 14:31:04.567 [INF] HeartBeat
+2023-11-02 14:31:04.568 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 14:31:06.026 [FTL] Path=/finalCase/Addresses/UserAddress/1 || Method=GET || Exception=The source IQueryable doesn't implement IDbAsyncEnumerable<Vk.Data.Domain.Address>. Only sources that implement IDbAsyncEnumerable can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+2023-11-02 14:31:06.063 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id be54714c-d333-478a-9572-8c4fc0beec46 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-02 14:31:06.126 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id be54714c-d333-478a-9572-8c4fc0beec46 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-02 14:31:06.131 [ERR] Connection ID "18230571323271151628", Request ID "8000000d-0007-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id be54714c-d333-478a-9572-8c4fc0beec46 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2023-11-02 14:37:57.912 [INF] App server is starting.
+2023-11-02 14:38:08.068 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 14:38:08.072 [INF] HeartBeat
+2023-11-02 14:38:08.073 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 14:38:10.134 [INF] -------------Request-Begin------------
+2023-11-02 14:38:10.134 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses/UserAddress/1 
+QueryString:  
+Request Body: 
+2023-11-02 14:38:10.134 [INF] 
+
+2023-11-02 14:38:10.134 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses/UserAddress/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":1,"addressLine1":"sdfsdf","addressLine2":"test","city":"test","county":"test","postalCode":44},{"userId":1,"addressLine1":"test2","addressLine2":"test2","city":"test2","county":"test2","postalCode":45},{"userId":1,"addressLine1":"test3","addressLine2":"test3","city":"test3","county":"test3","postalCode":45}]}
+2023-11-02 14:38:10.135 [INF] -------------Request-End------------
+2023-11-02 14:38:26.307 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 14:38:26.308 [INF] HeartBeat
+2023-11-02 14:38:26.308 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 14:38:26.398 [INF] -------------Request-Begin------------
+2023-11-02 14:38:26.399 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses/UserAddress/3 
+QueryString:  
+Request Body: 
+2023-11-02 14:38:26.399 [INF] 
+
+2023-11-02 14:38:26.399 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses/UserAddress/3 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-11-02 14:38:26.399 [INF] -------------Request-End------------
+2023-11-02 14:38:30.158 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 14:38:30.158 [INF] HeartBeat
+2023-11-02 14:38:30.158 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 14:38:30.186 [INF] -------------Request-Begin------------
+2023-11-02 14:38:30.187 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses/UserAddress/4 
+QueryString:  
+Request Body: 
+2023-11-02 14:38:30.187 [INF] 
+
+2023-11-02 14:38:30.187 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses/UserAddress/4 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":4,"addressLine1":"test3","addressLine2":"test3","city":"test3","county":"test3","postalCode":45}]}
+2023-11-02 14:38:30.187 [INF] -------------Request-End------------
+2023-11-02 14:42:08.385 [INF] App server is starting.
+2023-11-02 14:42:27.252 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 14:42:27.257 [INF] HeartBeat
+2023-11-02 14:42:27.259 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 14:42:29.303 [INF] -------------Request-Begin------------
+2023-11-02 14:42:29.303 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Orders/UserOrders/1 
+QueryString:  
+Request Body: 
+2023-11-02 14:42:29.303 [INF] 
+
+2023-11-02 14:42:29.303 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Orders/UserOrders/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":1,"orderStatus":"Waiting","orderPaymentMethod":"Credit Card","orderAmount":145},{"userId":1,"orderStatus":"Waiting","orderPaymentMethod":"Credit Card","orderAmount":144},{"userId":1,"orderStatus":"Waiting","orderPaymentMethod":"Credit Card","orderAmount":147},{"userId":1,"orderStatus":"DFSDFDS","orderPaymentMethod":"EFT","orderAmount":45752},{"userId":1,"orderStatus":"Waiting","orderPaymentMethod":"EFT","orderAmount":14},{"userId":1,"orderStatus":"Waiting","orderPaymentMethod":"EFT","orderAmount":14},{"userId":1,"orderStatus":"Waiting","orderPaymentMethod":"EFT","orderAmount":14},{"userId":1,"orderStatus":"Waiting","orderPaymentMethod":"EFT","orderAmount":14},{"userId":1,"orderStatus":"Waiting","orderPaymentMethod":"EFT","orderAmount":14},{"userId":1,"orderStatus":"Waiting","orderPaymentMethod":"EFT","orderAmount":14},{"userId":1,"orderStatus":"Waiting","orderPaymentMethod":"EFT","orderAmount":14}]}
+2023-11-02 14:42:29.304 [INF] -------------Request-End------------
+2023-11-02 16:54:01.675 [INF] App server is starting.
+2023-11-02 17:05:19.255 [INF] App server is starting.
+2023-11-02 17:05:24.756 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 17:05:24.761 [INF] HeartBeat
+2023-11-02 17:05:24.763 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 17:05:26.848 [INF] -------------Request-Begin------------
+2023-11-02 17:05:26.849 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-11-02 17:05:26.849 [INF] 
+
+2023-11-02 17:05:26.849 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":1,"addressLine1":"Address 1 Line 1","addressLine2":"Address 1 Line 2","city":"City 1","county":"County 1","postalCode":12345},{"userId":2,"addressLine1":"Address 2 Line 1","addressLine2":"Address 2 Line 2","city":"City 2","county":"County 2","postalCode":67890}]}
+2023-11-02 17:05:26.850 [INF] -------------Request-End------------
+2023-11-02 17:05:32.653 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 17:05:32.653 [INF] HeartBeat
+2023-11-02 17:05:32.654 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 17:05:32.796 [INF] -------------Request-Begin------------
+2023-11-02 17:05:32.796 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets 
+QueryString:  
+Request Body: 
+2023-11-02 17:05:32.796 [INF] 
+
+2023-11-02 17:05:32.796 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":1,"productId":1,"orderId":1,"basketQuantity":2,"basketPrice":20,"basketStatus":true},{"userId":2,"productId":2,"orderId":2,"basketQuantity":3,"basketPrice":45,"basketStatus":true}]}
+2023-11-02 17:05:32.796 [INF] -------------Request-End------------
+2023-11-02 17:06:30.859 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 17:06:30.860 [INF] HeartBeat
+2023-11-02 17:06:30.860 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 17:06:30.925 [INF] -------------Request-Begin------------
+2023-11-02 17:06:30.926 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets 
+QueryString:  
+Request Body: 
+2023-11-02 17:06:30.926 [INF] 
+
+2023-11-02 17:06:30.926 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":1,"productId":1,"orderId":1,"basketQuantity":2,"basketPrice":20,"basketStatus":false},{"userId":2,"productId":2,"orderId":2,"basketQuantity":3,"basketPrice":45,"basketStatus":false}]}
+2023-11-02 17:06:30.926 [INF] -------------Request-End------------
+2023-11-02 17:06:39.680 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 17:06:39.681 [INF] HeartBeat
+2023-11-02 17:06:39.681 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 17:06:39.859 [INF] -------------Request-Begin------------
+2023-11-02 17:06:39.859 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/1 
+QueryString:  
+Request Body: 
+2023-11-02 17:06:39.859 [INF] 
+
+2023-11-02 17:06:39.859 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"userId":1,"productId":1,"orderId":1,"basketQuantity":2,"basketPrice":20,"basketStatus":false}}
+2023-11-02 17:06:39.859 [INF] -------------Request-End------------
+2023-11-02 17:06:45.949 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 17:06:45.950 [INF] HeartBeat
+2023-11-02 17:06:45.950 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 17:06:46.044 [FTL] Path=/finalCase/Baskets/UserBaskets/1 || Method=GET || Exception=The request matched multiple endpoints. Matches: 
+
+Vk.Api.Controllers.BasketsController.GetByOrderId (Vk.Api)
+Vk.Api.Controllers.BasketsController.GetByProductId (Vk.Api)
+Vk.Api.Controllers.BasketsController.GetByUserId (Vk.Api)
+2023-11-02 17:06:46.076 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id d0ab86d8-0563-44dc-8815-99377b54fb29 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-02 17:06:46.135 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id d0ab86d8-0563-44dc-8815-99377b54fb29 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-02 17:06:46.141 [ERR] Connection ID "18302628904424177681", Request ID "80000012-0004-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id d0ab86d8-0563-44dc-8815-99377b54fb29 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2023-11-02 17:06:52.055 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 17:06:52.055 [INF] HeartBeat
+2023-11-02 17:06:52.055 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 17:06:52.123 [FTL] Path=/finalCase/Baskets/UserBaskets/1 || Method=GET || Exception=The request matched multiple endpoints. Matches: 
+
+Vk.Api.Controllers.BasketsController.GetByOrderId (Vk.Api)
+Vk.Api.Controllers.BasketsController.GetByProductId (Vk.Api)
+Vk.Api.Controllers.BasketsController.GetByUserId (Vk.Api)
+2023-11-02 17:06:52.145 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id d0f14c95-bb92-49cf-99d0-a0622269c251 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-02 17:06:52.148 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id d0f14c95-bb92-49cf-99d0-a0622269c251 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-02 17:06:52.150 [ERR] Connection ID "18302628904424177683", Request ID "80000014-0004-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id d0f14c95-bb92-49cf-99d0-a0622269c251 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2023-11-02 17:06:57.461 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 17:06:57.462 [INF] HeartBeat
+2023-11-02 17:06:57.462 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 17:06:57.538 [FTL] Path=/finalCase/Baskets/UserBaskets/1 || Method=GET || Exception=The request matched multiple endpoints. Matches: 
+
+Vk.Api.Controllers.BasketsController.GetByOrderId (Vk.Api)
+Vk.Api.Controllers.BasketsController.GetByProductId (Vk.Api)
+Vk.Api.Controllers.BasketsController.GetByUserId (Vk.Api)
+2023-11-02 17:06:57.560 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 3c804ef9-76a9-4169-829e-44a96cd97472 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-02 17:06:57.563 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 3c804ef9-76a9-4169-829e-44a96cd97472 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-02 17:06:57.565 [ERR] Connection ID "18302628904424177685", Request ID "80000016-0004-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 3c804ef9-76a9-4169-829e-44a96cd97472 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2023-11-02 17:07:16.477 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 17:07:16.477 [INF] HeartBeat
+2023-11-02 17:07:16.477 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 17:07:16.595 [INF] -------------Request-Begin------------
+2023-11-02 17:07:16.596 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/2 
+QueryString:  
+Request Body: {
+  "userId": 0,
+  "productId": 0,
+  "orderId": 0,
+  "basketQuantity": 0,
+  "basketPrice": 0,
+  "basketStatus": false
+}
+2023-11-02 17:07:16.596 [INF] 
+
+2023-11-02 17:07:16.596 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-02 17:07:16.596 [INF] -------------Request-End------------
+2023-11-02 17:07:26.726 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 17:07:26.726 [INF] HeartBeat
+2023-11-02 17:07:26.726 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 17:07:26.869 [INF] -------------Request-Begin------------
+2023-11-02 17:07:26.869 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/2 
+QueryString:  
+Request Body: {
+  "userId": 0,
+  "productId": 0,
+  "orderId": 0,
+  "basketQuantity": 0,
+  "basketPrice": 0,
+  "basketStatus": true
+}
+2023-11-02 17:07:26.869 [INF] 
+
+2023-11-02 17:07:26.869 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-02 17:07:26.869 [INF] -------------Request-End------------
+2023-11-02 17:07:51.750 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 17:07:51.750 [INF] HeartBeat
+2023-11-02 17:07:51.750 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 17:07:51.907 [ERR] An exception occurred in the database while saving changes for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Basket_Order_OrderId". The conflict occurred in database "finalCase", table "dbo.Order", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:007ec7a1-f419-46ec-a63f-a38654f686e7
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Basket_Order_OrderId". The conflict occurred in database "finalCase", table "dbo.Order", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:007ec7a1-f419-46ec-a63f-a38654f686e7
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-11-02 17:07:51.998 [ERR] CompleteTransaction
+2023-11-02 17:07:51.999 [INF] -------------Request-Begin------------
+2023-11-02 17:07:51.999 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets 
+QueryString:  
+Request Body: {
+  "userId": 1,
+  "productId": 1,
+  "basketQuantity": 1,
+  "basketPrice": 1111,
+  "basketStatus": true
+}
+2023-11-02 17:07:51.999 [INF] 
+
+2023-11-02 17:07:51.999 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"userId":1,"productId":1,"orderId":0,"basketQuantity":1,"basketPrice":1111,"basketStatus":true}}
+2023-11-02 17:07:51.999 [INF] -------------Request-End------------
+2023-11-02 17:08:13.749 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 17:08:13.749 [INF] HeartBeat
+2023-11-02 17:08:13.749 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 17:08:13.769 [ERR] An exception occurred in the database while saving changes for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Basket_Order_OrderId". The conflict occurred in database "finalCase", table "dbo.Order", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:007ec7a1-f419-46ec-a63f-a38654f686e7
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Basket_Order_OrderId". The conflict occurred in database "finalCase", table "dbo.Order", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:007ec7a1-f419-46ec-a63f-a38654f686e7
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-11-02 17:08:13.822 [ERR] CompleteTransaction
+2023-11-02 17:08:13.823 [INF] -------------Request-Begin------------
+2023-11-02 17:08:13.823 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets 
+QueryString:  
+Request Body: {
+  "userId": 1,
+  "productId": 1,
+  "basketQuantity": 1,
+  "basketPrice": 1111,
+  "basketStatus": true
+}
+2023-11-02 17:08:13.823 [INF] 
+
+2023-11-02 17:08:13.823 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"userId":1,"productId":1,"orderId":0,"basketQuantity":1,"basketPrice":1111,"basketStatus":true}}
+2023-11-02 17:08:13.823 [INF] -------------Request-End------------
+2023-11-02 17:13:58.568 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 17:13:58.568 [INF] HeartBeat
+2023-11-02 17:13:58.568 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 17:13:58.592 [ERR] An exception occurred in the database while saving changes for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Basket_Order_OrderId". The conflict occurred in database "finalCase", table "dbo.Order", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:067fad11-0772-4fb5-81cf-ae2bde051ace
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Basket_Order_OrderId". The conflict occurred in database "finalCase", table "dbo.Order", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:067fad11-0772-4fb5-81cf-ae2bde051ace
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-11-02 17:13:58.642 [ERR] CompleteTransaction
+2023-11-02 17:13:58.642 [INF] -------------Request-Begin------------
+2023-11-02 17:13:58.642 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets 
+QueryString:  
+Request Body: {
+  "userId": 1,
+  "productId": 1,
+  "basketQuantity": 1,
+  "basketPrice": 1111,
+  "basketStatus": true
+}
+2023-11-02 17:13:58.642 [INF] 
+
+2023-11-02 17:13:58.643 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"userId":1,"productId":1,"orderId":0,"basketQuantity":1,"basketPrice":1111,"basketStatus":true}}
+2023-11-02 17:13:58.643 [INF] -------------Request-End------------
+2023-11-02 19:20:01.386 [INF] App server is starting.
+2023-11-02 19:20:21.045 [INF] App server is starting.
+2023-11-02 19:25:44.860 [INF] App server is starting.
+2023-11-02 19:37:35.219 [INF] App server is starting.
+2023-11-02 19:37:58.467 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 19:37:58.470 [INF] HeartBeat
+2023-11-02 19:37:58.473 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 19:37:58.750 [INF] -------------Request-Begin------------
+2023-11-02 19:37:58.751 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets 
+QueryString:  
+Request Body: {
+  "userId": 1,
+  "productId": 1,
+  "basketQuantity": 34,
+  "basketPrice": 3534,
+  "basketStatus": false
+}
+2023-11-02 19:37:58.751 [INF] 
+
+2023-11-02 19:37:58.751 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-9513cae80ac253b50ee1e4999d08dde3-72f5692163f2f6f9-00","errors":{"BasketStatus":["Basket status is required."]}}
+2023-11-02 19:37:58.751 [INF] -------------Request-End------------
+2023-11-02 19:38:11.318 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 19:38:11.318 [INF] HeartBeat
+2023-11-02 19:38:11.319 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 19:38:13.167 [INF] -------------Request-Begin------------
+2023-11-02 19:38:13.168 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets 
+QueryString:  
+Request Body: {
+  "userId": 1,
+  "productId": 1,
+  "basketQuantity": 34,
+  "basketPrice": 3534,
+  "basketStatus": true
+}
+2023-11-02 19:38:13.168 [INF] 
+
+2023-11-02 19:38:13.168 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"userId":1,"productId":1,"orderId":0,"basketQuantity":34,"basketPrice":3534,"basketStatus":true}}
+2023-11-02 19:38:13.168 [INF] -------------Request-End------------
+2023-11-02 19:38:49.829 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 19:38:49.829 [INF] HeartBeat
+2023-11-02 19:38:49.829 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 19:38:49.936 [FTL] Path=/finalCase/Baskets/UserBaskets/1 || Method=GET || Exception=The request matched multiple endpoints. Matches: 
+
+Vk.Api.Controllers.BasketsController.GetByOrderId (Vk.Api)
+Vk.Api.Controllers.BasketsController.GetByProductId (Vk.Api)
+Vk.Api.Controllers.BasketsController.GetByUserId (Vk.Api)
+2023-11-02 19:38:49.967 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 41588797-472b-40b4-9fe0-38d8732e5675 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-02 19:38:50.029 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 41588797-472b-40b4-9fe0-38d8732e5675 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-02 19:38:50.034 [ERR] Connection ID "18302628913014112291", Request ID "80000024-0006-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 41588797-472b-40b4-9fe0-38d8732e5675 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2023-11-02 19:38:59.936 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 19:38:59.937 [INF] HeartBeat
+2023-11-02 19:38:59.937 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 19:39:00.381 [INF] -------------Request-Begin------------
+2023-11-02 19:39:00.382 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/4 
+QueryString:  
+Request Body: 
+2023-11-02 19:39:00.382 [INF] 
+
+2023-11-02 19:39:00.382 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/4 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-02 19:39:00.382 [INF] -------------Request-End------------
+2023-11-02 19:39:15.051 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 19:39:15.051 [INF] HeartBeat
+2023-11-02 19:39:15.051 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 19:39:15.202 [INF] -------------Request-Begin------------
+2023-11-02 19:39:15.202 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/2 
+QueryString:  
+Request Body: {
+  "userId": 2,
+  "productId": 0,
+  "orderId": 0,
+  "basketQuantity": 0,
+  "basketPrice": 0,
+  "basketStatus": true
+}
+2023-11-02 19:39:15.202 [INF] 
+
+2023-11-02 19:39:15.202 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-02 19:39:15.202 [INF] -------------Request-End------------
+2023-11-02 19:39:23.342 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 19:39:23.342 [INF] HeartBeat
+2023-11-02 19:39:23.342 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 19:39:23.364 [INF] -------------Request-Begin------------
+2023-11-02 19:39:23.364 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/2 
+QueryString:  
+Request Body: 
+2023-11-02 19:39:23.364 [INF] 
+
+2023-11-02 19:39:23.364 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"userId":2,"productId":1,"orderId":1,"basketQuantity":2,"basketPrice":20,"basketStatus":true}}
+2023-11-02 19:39:23.364 [INF] -------------Request-End------------
+2023-11-02 19:39:27.199 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 19:39:27.199 [INF] HeartBeat
+2023-11-02 19:39:27.200 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 19:39:27.356 [INF] -------------Request-Begin------------
+2023-11-02 19:39:27.356 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets 
+QueryString:  
+Request Body: 
+2023-11-02 19:39:27.356 [INF] 
+
+2023-11-02 19:39:27.356 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":2,"productId":1,"orderId":1,"basketQuantity":2,"basketPrice":20,"basketStatus":true},{"userId":2,"productId":2,"orderId":2,"basketQuantity":3,"basketPrice":45,"basketStatus":false}]}
+2023-11-02 19:39:27.356 [INF] -------------Request-End------------
+2023-11-02 19:39:40.681 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 19:39:40.681 [INF] HeartBeat
+2023-11-02 19:39:40.681 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 19:39:40.723 [INF] -------------Request-Begin------------
+2023-11-02 19:39:40.723 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses/UserAddress/2 
+QueryString:  
+Request Body: 
+2023-11-02 19:39:40.723 [INF] 
+
+2023-11-02 19:39:40.723 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses/UserAddress/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":2,"addressLine1":"Address 2 Line 1","addressLine2":"Address 2 Line 2","city":"City 2","county":"County 2","postalCode":67890}]}
+2023-11-02 19:39:40.724 [INF] -------------Request-End------------
+2023-11-02 19:41:50.071 [INF] App server is starting.
+2023-11-02 19:42:05.683 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 19:42:05.688 [INF] HeartBeat
+2023-11-02 19:42:05.690 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 19:42:07.756 [INF] -------------Request-Begin------------
+2023-11-02 19:42:07.756 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/UserBaskets/1 
+QueryString:  
+Request Body: 
+2023-11-02 19:42:07.757 [INF] 
+
+2023-11-02 19:42:07.757 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/UserBaskets/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-11-02 19:42:07.758 [INF] -------------Request-End------------
+2023-11-02 19:42:14.540 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 19:42:14.540 [INF] HeartBeat
+2023-11-02 19:42:14.540 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 19:42:14.615 [INF] -------------Request-Begin------------
+2023-11-02 19:42:14.616 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/UserBaskets/12 
+QueryString:  
+Request Body: 
+2023-11-02 19:42:14.616 [INF] 
+
+2023-11-02 19:42:14.616 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/UserBaskets/12 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-11-02 19:42:14.616 [INF] -------------Request-End------------
+2023-11-02 19:42:17.261 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 19:42:17.261 [INF] HeartBeat
+2023-11-02 19:42:17.261 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 19:42:17.379 [INF] -------------Request-Begin------------
+2023-11-02 19:42:17.379 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/UserBaskets/2 
+QueryString:  
+Request Body: 
+2023-11-02 19:42:17.379 [INF] 
+
+2023-11-02 19:42:17.379 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/UserBaskets/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":2,"productId":1,"orderId":1,"basketQuantity":2,"basketPrice":20,"basketStatus":true},{"userId":2,"productId":2,"orderId":2,"basketQuantity":3,"basketPrice":45,"basketStatus":false}]}
+2023-11-02 19:42:17.379 [INF] -------------Request-End------------
+2023-11-02 19:42:25.040 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 19:42:25.040 [INF] HeartBeat
+2023-11-02 19:42:25.041 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 19:42:25.053 [INF] -------------Request-Begin------------
+2023-11-02 19:42:25.053 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/OrderBaskets/1 
+QueryString:  
+Request Body: 
+2023-11-02 19:42:25.053 [INF] 
+
+2023-11-02 19:42:25.053 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/OrderBaskets/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-11-02 19:42:25.053 [INF] -------------Request-End------------
+2023-11-02 19:42:28.319 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 19:42:28.320 [INF] HeartBeat
+2023-11-02 19:42:28.320 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 19:42:28.325 [INF] -------------Request-Begin------------
+2023-11-02 19:42:28.325 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/OrderBaskets/2 
+QueryString:  
+Request Body: 
+2023-11-02 19:42:28.325 [INF] 
+
+2023-11-02 19:42:28.325 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/OrderBaskets/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":2,"productId":1,"orderId":1,"basketQuantity":2,"basketPrice":20,"basketStatus":true},{"userId":2,"productId":2,"orderId":2,"basketQuantity":3,"basketPrice":45,"basketStatus":false}]}
+2023-11-02 19:42:28.325 [INF] -------------Request-End------------
+2023-11-02 19:42:32.989 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-02 19:42:32.989 [INF] HeartBeat
+2023-11-02 19:42:32.989 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-02 19:42:32.998 [INF] -------------Request-Begin------------
+2023-11-02 19:42:32.999 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/ProductBaskets/2 
+QueryString:  
+Request Body: 
+2023-11-02 19:42:32.999 [INF] 
+
+2023-11-02 19:42:32.999 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Baskets/ProductBaskets/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userId":2,"productId":1,"orderId":1,"basketQuantity":2,"basketPrice":20,"basketStatus":true},{"userId":2,"productId":2,"orderId":2,"basketQuantity":3,"basketPrice":45,"basketStatus":false}]}
+2023-11-02 19:42:32.999 [INF] -------------Request-End------------

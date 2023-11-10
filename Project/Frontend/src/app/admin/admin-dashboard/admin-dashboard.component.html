@@ -1,0 +1,11 @@
+<div class="row" style="height: 100%;">
+
+  <div class="col-md-2 d-flex flex-column justify-content-between" style=" width: 15%; height: 100%;">
+    <app-admin-sidebar (pageChanged)="changePage($event)"></app-admin-sidebar>
+  </div>
+
+  <div class="col-md-10 d-flex flex-column justify-content-between" style=" width: 85%; height: 100%;">
+    <app-admin-page [selectedPage]="selectedPage"></app-admin-page>
+  </div>
+  
+</div>

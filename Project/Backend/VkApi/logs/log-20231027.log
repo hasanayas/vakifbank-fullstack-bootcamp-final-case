@@ -1,0 +1,925 @@
+2023-10-27 22:08:15.145 [INF] App server is starting.
+2023-10-27 22:08:27.664 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:08:27.669 [INF] HeartBeat
+2023-10-27 22:08:27.671 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:08:29.269 [FTL] Path=/finalCase/Addresses || Method=GET || Exception=An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation 'Address' specified in string based include path 'Address'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+2023-10-27 22:08:29.302 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 9f176f20-363b-44ac-a441-aaaa2ef54c65 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-27 22:08:29.379 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 9f176f20-363b-44ac-a441-aaaa2ef54c65 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-27 22:08:29.384 [ERR] Connection ID "18158513716348321795", Request ID "80000004-0004-fc00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 9f176f20-363b-44ac-a441-aaaa2ef54c65 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2023-10-27 22:12:41.812 [INF] App server is starting.
+2023-10-27 22:12:48.481 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:12:48.492 [INF] HeartBeat
+2023-10-27 22:12:48.495 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:12:51.229 [INF] -------------Request-Begin------------
+2023-10-27 22:12:51.229 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: 
+2023-10-27 22:12:51.229 [INF] 
+
+2023-10-27 22:12:51.229 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-10-27 22:12:51.229 [INF] -------------Request-End------------
+2023-10-27 22:13:00.235 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:13:00.235 [INF] HeartBeat
+2023-10-27 22:13:00.235 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:13:00.333 [INF] -------------Request-Begin------------
+2023-10-27 22:13:00.333 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-10-27 22:13:00.333 [INF] 
+
+2023-10-27 22:13:00.333 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-10-27 22:13:00.333 [INF] -------------Request-End------------
+2023-10-27 22:13:07.094 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:13:07.094 [INF] HeartBeat
+2023-10-27 22:13:07.094 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:13:07.314 [INF] -------------Request-Begin------------
+2023-10-27 22:13:07.315 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users/1 
+QueryString:  
+Request Body: 
+2023-10-27 22:13:07.315 [INF] 
+
+2023-10-27 22:13:07.315 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found","response":null}
+2023-10-27 22:13:07.315 [INF] -------------Request-End------------
+2023-10-27 22:37:53.766 [INF] App server is starting.
+2023-10-27 22:38:35.263 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:38:35.267 [INF] HeartBeat
+2023-10-27 22:38:35.269 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:38:35.556 [INF] -------------Request-Begin------------
+2023-10-27 22:38:35.556 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userName": "test",
+  "userEmail": "test@gmail.com",
+  "userPassword": "1234",
+  "userRole": "",
+  "userBalance": 0,
+  "userProfitMargin": 0
+}
+2023-10-27 22:38:35.556 [INF] 
+
+2023-10-27 22:38:35.556 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-562422cd0c36ccb5513fdfaef7b0f860-a8dae2286f0c2017-00","errors":{"UserRole":["UserRole is required.","OrderStatus must be 'Admin' or 'Dealer'."],"UserBalance":["UserBalance is required."],"UserProfitMargin":["UserProfitMargin is required."]}}
+2023-10-27 22:38:35.557 [INF] -------------Request-End------------
+2023-10-27 22:38:58.700 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:38:58.704 [INF] HeartBeat
+2023-10-27 22:38:58.705 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:38:58.736 [INF] -------------Request-Begin------------
+2023-10-27 22:38:58.737 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userName": "test",
+  "userEmail": "test@gmail.com",
+  "userPassword": "1234",
+  "userRole": "fgh",
+  "userBalance": 500,
+  "userProfitMargin": 0
+}
+2023-10-27 22:38:58.737 [INF] 
+
+2023-10-27 22:38:58.737 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-4844de7894cfa09fc8f3efc0d2a098f3-e29f20e6b3943d75-00","errors":{"UserRole":["OrderStatus must be 'Admin' or 'Dealer'."],"UserProfitMargin":["UserProfitMargin is required."]}}
+2023-10-27 22:38:58.737 [INF] -------------Request-End------------
+2023-10-27 22:39:17.083 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:39:17.084 [INF] HeartBeat
+2023-10-27 22:39:17.084 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:39:19.266 [INF] -------------Request-Begin------------
+2023-10-27 22:39:19.266 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userName": "test",
+  "userEmail": "test@gmail.com",
+  "userPassword": "1234",
+  "userRole": "Dealer",
+  "userBalance": 500,
+  "userProfitMargin": 10
+}
+2023-10-27 22:39:19.266 [INF] 
+
+2023-10-27 22:39:19.266 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"userNumber":0,"userName":"test","userEmail":"test@gmail.com","userPassword":"1234","userPasswordRetryCount":0,"userRole":"Dealer","userBalance":500,"userProfitMargin":10,"addresses":[],"orders":[]}}
+2023-10-27 22:39:19.266 [INF] -------------Request-End------------
+2023-10-27 22:48:10.723 [INF] App server is starting.
+2023-10-27 22:48:46.650 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:48:46.655 [INF] HeartBeat
+2023-10-27 22:48:46.656 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:48:48.952 [INF] -------------Request-Begin------------
+2023-10-27 22:48:48.952 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userName": "test",
+  "userEmail": "test@gmail.com",
+  "userPassword": "1234",
+  "userRole": "Admin",
+  "userBalance": 500,
+  "userProfitMargin": 10
+}
+2023-10-27 22:48:48.952 [INF] 
+
+2023-10-27 22:48:48.952 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"userNumber":0,"userName":"test","userEmail":"test@gmail.com","userPassword":"1234","userPasswordRetryCount":0,"userRole":"Admin","userBalance":500,"userProfitMargin":10,"addresses":[],"orders":[]}}
+2023-10-27 22:48:48.953 [INF] -------------Request-End------------
+2023-10-27 22:49:05.108 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:49:05.108 [INF] HeartBeat
+2023-10-27 22:49:05.109 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:49:05.240 [ERR] An exception occurred in the database while saving changes for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserNumber'. The duplicate key value is (-10000).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:17099eb5-f1fb-4bec-899e-520d29ff06a9
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserNumber'. The duplicate key value is (-10000).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:17099eb5-f1fb-4bec-899e-520d29ff06a9
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-10-27 22:49:05.360 [ERR] CompleteTransaction
+2023-10-27 22:49:05.372 [INF] -------------Request-Begin------------
+2023-10-27 22:49:05.373 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userName": "test2",
+  "userEmail": "test2@gmail.com",
+  "userPassword": "1234",
+  "userRole": "Admin",
+  "userBalance": 500,
+  "userProfitMargin": 10
+}
+2023-10-27 22:49:05.373 [INF] 
+
+2023-10-27 22:49:05.373 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":null}
+2023-10-27 22:49:05.373 [INF] -------------Request-End------------
+2023-10-27 22:49:13.961 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:49:13.961 [INF] HeartBeat
+2023-10-27 22:49:13.961 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:49:13.995 [ERR] An exception occurred in the database while saving changes for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserNumber'. The duplicate key value is (-10000).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:17099eb5-f1fb-4bec-899e-520d29ff06a9
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserNumber'. The duplicate key value is (-10000).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:17099eb5-f1fb-4bec-899e-520d29ff06a9
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-10-27 22:49:14.047 [ERR] CompleteTransaction
+2023-10-27 22:49:14.048 [INF] -------------Request-Begin------------
+2023-10-27 22:49:14.048 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userName": "test2",
+  "userEmail": "test2@gmail.com",
+  "userPassword": "1234",
+  "userRole": "Admin",
+  "userBalance": 500,
+  "userProfitMargin": 10
+}
+2023-10-27 22:49:14.048 [INF] 
+
+2023-10-27 22:49:14.049 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":null}
+2023-10-27 22:49:14.049 [INF] -------------Request-End------------
+2023-10-27 22:49:20.007 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:49:20.007 [INF] HeartBeat
+2023-10-27 22:49:20.007 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:49:20.013 [ERR] An exception occurred in the database while saving changes for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserNumber'. The duplicate key value is (-10000).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:17099eb5-f1fb-4bec-899e-520d29ff06a9
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserNumber'. The duplicate key value is (-10000).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:17099eb5-f1fb-4bec-899e-520d29ff06a9
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-10-27 22:49:20.063 [ERR] CompleteTransaction
+2023-10-27 22:49:20.065 [INF] -------------Request-Begin------------
+2023-10-27 22:49:20.065 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userName": "test2",
+  "userEmail": "test2@gmail.com",
+  "userPassword": "1234",
+  "userRole": "Admin",
+  "userBalance": 500,
+  "userProfitMargin": 10
+}
+2023-10-27 22:49:20.065 [INF] 
+
+2023-10-27 22:49:20.065 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":null}
+2023-10-27 22:49:20.065 [INF] -------------Request-End------------
+2023-10-27 22:49:20.183 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:49:20.184 [INF] HeartBeat
+2023-10-27 22:49:20.184 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:49:20.189 [ERR] An exception occurred in the database while saving changes for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserNumber'. The duplicate key value is (-10000).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:17099eb5-f1fb-4bec-899e-520d29ff06a9
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserNumber'. The duplicate key value is (-10000).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:17099eb5-f1fb-4bec-899e-520d29ff06a9
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-10-27 22:49:20.236 [ERR] CompleteTransaction
+2023-10-27 22:49:20.237 [INF] -------------Request-Begin------------
+2023-10-27 22:49:20.237 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userName": "test2",
+  "userEmail": "test2@gmail.com",
+  "userPassword": "1234",
+  "userRole": "Admin",
+  "userBalance": 500,
+  "userProfitMargin": 10
+}
+2023-10-27 22:49:20.237 [INF] 
+
+2023-10-27 22:49:20.237 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":null}
+2023-10-27 22:49:20.238 [INF] -------------Request-End------------
+2023-10-27 22:49:20.360 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:49:20.360 [INF] HeartBeat
+2023-10-27 22:49:20.360 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:49:20.375 [ERR] An exception occurred in the database while saving changes for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserNumber'. The duplicate key value is (-10000).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:17099eb5-f1fb-4bec-899e-520d29ff06a9
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserNumber'. The duplicate key value is (-10000).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:17099eb5-f1fb-4bec-899e-520d29ff06a9
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-10-27 22:49:20.425 [ERR] CompleteTransaction
+2023-10-27 22:49:20.427 [INF] -------------Request-Begin------------
+2023-10-27 22:49:20.427 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userName": "test2",
+  "userEmail": "test2@gmail.com",
+  "userPassword": "1234",
+  "userRole": "Admin",
+  "userBalance": 500,
+  "userProfitMargin": 10
+}
+2023-10-27 22:49:20.427 [INF] 
+
+2023-10-27 22:49:20.427 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":null}
+2023-10-27 22:49:20.427 [INF] -------------Request-End------------
+2023-10-27 22:49:20.562 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:49:20.562 [INF] HeartBeat
+2023-10-27 22:49:20.562 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:49:20.569 [ERR] An exception occurred in the database while saving changes for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserNumber'. The duplicate key value is (-10000).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:17099eb5-f1fb-4bec-899e-520d29ff06a9
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserNumber'. The duplicate key value is (-10000).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:17099eb5-f1fb-4bec-899e-520d29ff06a9
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-10-27 22:49:20.624 [ERR] CompleteTransaction
+2023-10-27 22:49:20.626 [INF] -------------Request-Begin------------
+2023-10-27 22:49:20.626 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userName": "test2",
+  "userEmail": "test2@gmail.com",
+  "userPassword": "1234",
+  "userRole": "Admin",
+  "userBalance": 500,
+  "userProfitMargin": 10
+}
+2023-10-27 22:49:20.626 [INF] 
+
+2023-10-27 22:49:20.626 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":null}
+2023-10-27 22:49:20.627 [INF] -------------Request-End------------
+2023-10-27 22:49:30.898 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:49:30.898 [INF] HeartBeat
+2023-10-27 22:49:30.898 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:49:30.909 [INF] -------------Request-Begin------------
+2023-10-27 22:49:30.909 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userName": "test2",
+  "userEmail": "test2@gmail.com",
+  "userPassword": "1234",
+  "userRole": "Admin",
+  "userBalance": 500,
+  "userProfitMargin": 10
+}
+2023-10-27 22:49:30.909 [INF] 
+
+2023-10-27 22:49:30.909 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"userNumber":0,"userName":"test2","userEmail":"test2@gmail.com","userPassword":"1234","userPasswordRetryCount":0,"userRole":"Admin","userBalance":500,"userProfitMargin":10,"addresses":[],"orders":[]}}
+2023-10-27 22:49:30.909 [INF] -------------Request-End------------
+2023-10-27 22:53:27.707 [INF] App server is starting.
+2023-10-27 22:53:59.481 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:53:59.485 [INF] HeartBeat
+2023-10-27 22:53:59.487 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:54:01.989 [INF] -------------Request-Begin------------
+2023-10-27 22:54:01.989 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userName": "test",
+  "userEmail": "test@gmail.com",
+  "userPassword": "1234",
+  "userRole": "Admin",
+  "userBalance": 500,
+  "userProfitMargin": 10
+}
+2023-10-27 22:54:01.989 [INF] 
+
+2023-10-27 22:54:01.990 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"userNumber":0,"userName":"test","userEmail":"test@gmail.com","userPassword":"1234","userPasswordRetryCount":0,"userRole":"Admin","userBalance":500,"userProfitMargin":10,"addresses":[],"orders":[]}}
+2023-10-27 22:54:01.990 [INF] -------------Request-End------------
+2023-10-27 22:54:11.664 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:54:11.664 [INF] HeartBeat
+2023-10-27 22:54:11.664 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:54:11.805 [ERR] An exception occurred in the database while saving changes for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserNumber'. The duplicate key value is (0).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:44700a14-cd55-4837-83aa-d2874c3ce452
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserNumber'. The duplicate key value is (0).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:44700a14-cd55-4837-83aa-d2874c3ce452
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-10-27 22:54:11.934 [ERR] CompleteTransaction
+2023-10-27 22:54:11.948 [INF] -------------Request-Begin------------
+2023-10-27 22:54:11.949 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userName": "test2",
+  "userEmail": "test2@gmail.com",
+  "userPassword": "1234",
+  "userRole": "Admin",
+  "userBalance": 500,
+  "userProfitMargin": 10
+}
+2023-10-27 22:54:11.949 [INF] 
+
+2023-10-27 22:54:11.949 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":null}
+2023-10-27 22:54:11.949 [INF] -------------Request-End------------
+2023-10-27 22:54:43.620 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-27 22:54:43.623 [INF] HeartBeat
+2023-10-27 22:54:43.623 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-27 22:54:43.654 [ERR] An exception occurred in the database while saving changes for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserNumber'. The duplicate key value is (0).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:44700a14-cd55-4837-83aa-d2874c3ce452
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserNumber'. The duplicate key value is (0).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:44700a14-cd55-4837-83aa-d2874c3ce452
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-10-27 22:54:43.705 [ERR] CompleteTransaction
+2023-10-27 22:54:43.707 [INF] -------------Request-Begin------------
+2023-10-27 22:54:43.707 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userName": "test2",
+  "userEmail": "test2@gmail.com",
+  "userPassword": "1234",
+  "userRole": "Admin",
+  "userBalance": 500,
+  "userProfitMargin": 20
+}
+2023-10-27 22:54:43.707 [INF] 
+
+2023-10-27 22:54:43.708 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":null}
+2023-10-27 22:54:43.708 [INF] -------------Request-End------------

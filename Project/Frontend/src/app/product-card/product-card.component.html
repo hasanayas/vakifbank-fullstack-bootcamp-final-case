@@ -1,0 +1,18 @@
+<div class="product-card card shadow rounded">
+  <h3>{{ productName }}</h3>
+  <div class="product-info">{{ productInfo }}</div>
+  <div class="stock-quantity">Stock: {{ stockQuantity }}</div>
+  <div class="price">Price: {{ price }} TL</div>
+
+  <div class="quantity-controls">
+    <button class="btn btn-danger" (click)="decreaseQuantity()" [disabled]="quantity === 0">-</button>
+    <span>{{ quantity }}</span>
+    <button class="btn btn-success" (click)="increaseQuantity()">+</button>
+  </div>
+
+
+  <button class="btn btn-dark"  (click)="addToBasket()">
+    Add To Basket
+  </button>
+  
+</div>

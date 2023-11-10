@@ -1,0 +1,81 @@
+<div class="container mt-2">
+  <div class="row">
+    <h4>Waiting Orders</h4>
+    <div class="col-md-12">
+      <div class="table-responsive-1 shadow">
+       
+        <table class="table">
+          <thead class="thead-dark">
+            <tr class="text-center">
+              <th scope="col">Order Id</th>
+              <th scope="col">User ID</th>
+              <th scope="col">Order Payment Method</th>
+              <th scope="col">Order Amount</th>
+              <th scope="col">Order Status</th>
+              <th scope="col">Date</th>
+              <th scope="col">Approve</th>
+              <th scope="col">Cancel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Bekleyen İşlemler -->
+            <tr class="text-center" *ngFor="let order of waitingOrders">
+              <td class="text-center">{{ order.id }}</td>
+              <td class="text-center">{{ order.userId }}</td>
+              <td class="text-center">{{ order.orderPaymentMethod }}</td>
+              <td class="text-center">{{ order.orderAmount }}</td>
+              <td class="text-center">{{ order.orderStatus }}</td>
+              <td class="text-center">{{ formatOrderDate(order.insertDate) }}</td>
+              <td class="text-center"><button class="btn btn-outline-success btn-xs btn-radius" (click)="PutOrder(order)">
+                Approve</button></td>
+              <td class="text-center"><button class="btn btn-danger" (click)="DeleteOrder(order)">Cancel </button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="text-right mb-2">
+        <button class="btn btn-success" (click)="exportToExcel(waitingOrders, 'waiting_orders')">Export Excel</button>
+        <button class="btn btn-warning" (click)="exportToWaitingJson()">Export Json</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <h4>Complated Orders</h4>
+    <div class="col-md-12">
+      <div class="table-responsive-2 shadow">
+       
+        <table class="table">
+          <thead class="thead-light">
+            <tr class="text-center">
+              <th scope="col">Order Id</th>
+              <th scope="col">User ID</th>
+              <th scope="col">Order Payment Method</th>
+              <th scope="col">Order Amount</th>
+              <th scope="col">Order Status</th>
+              <th scope="col">Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="text-center" *ngFor="let order of completedOrders">
+              <td class="text-center">{{ order.id }}</td>
+              <td class="text-center">{{ order.userId }}</td>
+              <td class="text-center">{{ order.orderPaymentMethod }}</td>
+              <td class="text-center">{{ order.orderAmount }}</td>
+              <td class="text-center">{{ order.orderStatus }}</td>
+              <td class="text-center">{{ formatOrderDate(order.insertDate) }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="text-right mb-2">
+        <button class="btn btn-success" (click)="exportToExcel(completedOrders, 'completed_orders')">Excel'e Aktar</button>
+        <button class="btn btn-warning" (click)="exportToCompletedJson()">JSON'a Aktar</button>
+      </div>
+      
+    </div>
+  </div>
+</div>

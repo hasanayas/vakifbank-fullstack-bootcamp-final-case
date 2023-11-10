@@ -1,0 +1,48 @@
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-row {
+    display: flex;
+    flex-basis: 100%;
+  }
+  
+  .product-col {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .btn-primary{
+    margin-left: 10px;
+    margin-top: 2%;
+  }
+
+  .btn-custom {
+    background-color: #ff5733; 
+    color: #fff; 
+    border: none; 
+    border-radius: 8px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    margin-left: 600px;
+  }
+  
+  .btn-custom:hover {
+    background-color: #ff8547; /* Fare üzerine gelindiğinde arka plan rengi */
+  }
+  
+  .container-groups{
+    display: flex;
+    align-items: center;
+    margin: 0 120px; 
+  }
+
+
+  .container-groups input{
+    margin: 0 3%; 
+    flex: 1;
+    width: 400px;
+  }
+  

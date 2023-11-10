@@ -1,0 +1,140 @@
+.col-md-12{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.text-right{
+margin-top: 1%;
+}
+
+.btn-warning{
+    margin-left: 1%;
+}
+
+
+.table-responsive-1 {
+    max-height: 380px; 
+  }
+
+  .table-responsive-2 {
+    max-height: 335px; 
+  }
+ 
+
+  .table-responsive-1, .table-responsive-2 {
+    overflow-y: auto;
+    border: 1px solid #ccc; /* Kenarlık  */
+    border-radius: 5px; /* Yuvarlatılmış köşeler */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /*  gölge  */
+  }
+  
+  .table-responsive-1::-webkit-scrollbar,
+  .table-responsive-2::-webkit-scrollbar {
+    width: 8px; /* Scrollbar genişliği */
+  }
+  
+  .table-responsive-1::-webkit-scrollbar-thumb,
+  .table-responsive-2::-webkit-scrollbar-thumb {
+    background-color: #888; /* Scrollbar başlık rengi */
+    border-radius: 4px; /* Yuvarlatılmış köşeler */
+  }
+  
+  .table-responsive-1::-webkit-scrollbar-track,
+  .table-responsive-2::-webkit-scrollbar-track {
+    background-color: #f2f2f2; /* Scrollbar arka plan rengi */
+    border-radius: 4px; /* Yuvarlatılmış köşeler */
+  }
+/*   
+  Buttons */
+
+
+.btn-success {
+    background: #05ac50;
+    background: -moz-linear-gradient(-45deg,#05ac50 0%,#21dd72 50%,#05c44e 51%,#05ac50 71%,#05ac50 100%);
+    background: -webkit-linear-gradient(-45deg,#05ac50 0%,#21dd72 50%,#05c44e 51%,#05ac50 71%,#05ac50 100%);
+    background: linear-gradient(135deg,#05ac50 0%,#21dd72 50%,#05c44e 51%,#05ac50 71%,#05ac50 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05ac50',endColorstr='#05ac50',GradientType=1 );
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 3s ease infinite;
+    -moz-animation: AnimationName 3s ease infinite;
+    animation: AnimationName 3s ease infinite;
+    -webkit-animation: AnimationName 3s ease infinite;
+    -moz-animation: AnimationName 3s ease infinite;
+    animation: AnimationName 3s ease infinite;
+    border: medium
+}
+
+
+.btn-warning {
+  background: #e5ae09;
+  background: -moz-linear-gradient(-45deg,#e5ae09 0%,#ffd044 50%,#ffc107 51%,#fc9014 71%,#f1890b 100%);
+  background: -webkit-linear-gradient(-45deg,#e5ae09 0%,#ffd044 50%,#ffc107 51%,#fc9014 71%,#f1890b 100%);
+  background: linear-gradient(135deg,#e5ae09 0%,#ffd044 50%,#ffc107 51%,#fc9014 71%,#f1890b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5ae09',endColorstr='#f1890b',GradientType=1 );
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 3s ease infinite;
+  -moz-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+  -webkit-animation: AnimationName 3s ease infinite;
+  -moz-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+  border: medium;
+  color: #fff!important
+}
+
+
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 31%
+    }
+
+    50% {
+        background-position: 100% 70%
+    }
+
+    100% {
+        background-position: 0% 31%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 31%
+    }
+
+    50% {
+        background-position: 100% 70%
+    }
+
+    100% {
+        background-position: 0% 31%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 31%
+    }
+
+    50% {
+        background-position: 100% 70%
+    }
+
+    100% {
+        background-position: 0% 31%
+    }
+}
+
+.btn-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-danger{
+  background-color: white;
+  color: #dc3545;
+}
+
+
+

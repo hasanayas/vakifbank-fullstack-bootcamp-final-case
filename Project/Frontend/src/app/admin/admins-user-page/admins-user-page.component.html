@@ -1,0 +1,72 @@
+<div class="row mt-5 mx-auto" style="max-width: 80%;">
+  <div class="col-md-12">
+    <h3>Distributors</h3>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Number</th>
+          <th scope="col">Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Balance</th>
+          <th scope="col">Profit Margin</th>
+          <th scope="col">Actions</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td>{{ user.id }}</td>
+          <td>{{ user.userNumber }}</td>
+          <td>{{ user.userName }}</td>
+          <td>{{ user.userEmail }}</td>
+          <td>{{ user.userBalance }}</td>
+          <td>{{ user.userProfitMargin }}</td>
+          <td>
+            <button class="btn btn-danger" (click)="deleteUser(user.id)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="container" >
+  <h3>Add Distributor</h3>
+  <form (ngSubmit)="PostUser()" style="margin-top: 2%;">
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <label for="userNumber" class="form-label">Distributor Number</label>
+        <input type="number" class="form-control" id="userNumber" [(ngModel)]="userNumber" name="userNumber" required>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="userName" class="form-label">Distributor Name</label>
+        <input type="text" class="form-control" id="userName" [(ngModel)]="userName" name="userName" required>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="userEmail" class="form-label">Distributor Email</label>
+        <input type="email" class="form-control" id="userEmail" [(ngModel)]="userEmail" name="userEmail" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <label for="userPassword" class="form-label">Distributor Password</label>
+        <input type="password" class="form-control" id="userPassword" [(ngModel)]="userPassword" name="userPassword" required>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="userBalance" class="form-label">Distributor Balance</label>
+        <input type="number" class="form-control" id="userBalance" [(ngModel)]="userBalance" name="userBalance" required>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="userProfitMargin" class="form-label">Distributor Profit Margin</label>
+        <input type="number" class="form-control" id="userProfitMargin" [(ngModel)]="userProfitMargin" name="userProfitMargin" required>
+      </div>
+    </div>
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary">Add Distributor</button>
+    </div>
+  </form>
+</div>
+
+
+

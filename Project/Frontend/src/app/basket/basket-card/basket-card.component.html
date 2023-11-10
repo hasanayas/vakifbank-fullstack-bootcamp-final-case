@@ -1,0 +1,9 @@
+<div class="basket-card card shadow rounded">
+  <h5>{{ productName }}</h5>
+  <div class="info-container">
+    <span>Quantity: {{ quantity }}</span>
+    <span>Total Price: {{ totalPrice }}</span>
+    <button (click)="deleteItem()" class="btn btn-danger">Remove</button>
+
+  </div>
+</div>

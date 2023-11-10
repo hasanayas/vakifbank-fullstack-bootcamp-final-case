@@ -1,0 +1,796 @@
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Connected Services\N11ServiceReference\ConnectedService.json
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Vk.Api.exe
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\appsettings.json
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Vk.Api.deps.json
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Vk.Api.runtimeconfig.json
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Vk.Api.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Vk.Api.pdb
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\AutoMapper.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\EntityFramework.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\FluentValidation.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Humanizer.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\LinqKit.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\LinqKit.Core.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\MediatR.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.WsTrust.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.Saml.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Xml.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Npgsql.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Serilog.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Serilog.Sinks.RollingFile.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.Diagnostics.PerformanceCounter.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.Private.ServiceModel.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.ServiceModel.Duplex.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.ServiceModel.Federation.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.ServiceModel.Http.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.ServiceModel.NetTcp.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.ServiceModel.Primitives.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.ServiceModel.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.ServiceModel.Security.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\cs\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\de\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\es\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\fr\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\it\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\ja\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\ko\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\pl\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\pt-BR\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\ru\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\tr\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\zh-Hans\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\zh-Hant\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\cs\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\de\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\es\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\fr\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\it\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\ja\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\ko\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\pl\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\pt-BR\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\ru\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\tr\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\zh-Hans\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\zh-Hant\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Vk.Base.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Vk.Data.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Vk.Operation.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Vk.Schema.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Vk.Data.pdb
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Vk.Operation.pdb
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Vk.Base.pdb
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\bin\Debug\net7.0\Vk.Schema.pdb
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\Vk.Api.csproj.AssemblyReference.cache
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\Vk.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\Vk.Api.AssemblyInfoInputs.cache
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\Vk.Api.AssemblyInfo.cs
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\Vk.Api.csproj.CoreCompileInputs.cache
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\Vk.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\Vk.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.Vk.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.build.Vk.Api.props
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Vk.Api.props
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Vk.Api.props
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\scopedcss\bundle\Vk.Api.styles.css
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\Vk.Api.csproj.CopyComplete
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\Vk.Api.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\refint\Vk.Api.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\Vk.Api.pdb
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\Vk.Api.genruntimeconfig.cache
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\VkApi\obj\Debug\net7.0\ref\Vk.Api.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.csproj.AssemblyReference.cache
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.AssemblyInfoInputs.cache
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.AssemblyInfo.cs
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.csproj.CoreCompileInputs.cache
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\refint\Vk.Api.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.pdb
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Vk.Api.exe
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\appsettings.json
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Vk.Api.deps.json
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Vk.Api.runtimeconfig.json
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Vk.Api.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Vk.Api.pdb
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\AutoMapper.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\EntityFramework.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\FluentValidation.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Humanizer.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\LinqKit.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\LinqKit.Core.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\MediatR.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.WsTrust.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.Saml.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Xml.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Npgsql.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Serilog.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Serilog.Sinks.RollingFile.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.Diagnostics.PerformanceCounter.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.Private.ServiceModel.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.ServiceModel.Duplex.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.ServiceModel.Federation.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.ServiceModel.Http.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.ServiceModel.NetTcp.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.ServiceModel.Primitives.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.ServiceModel.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.ServiceModel.Security.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\cs\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\de\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\es\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\fr\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\it\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\ja\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\ko\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\pl\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\pt-BR\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\ru\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\tr\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\zh-Hans\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\zh-Hant\System.Private.ServiceModel.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\cs\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\de\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\es\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\fr\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\it\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\ja\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\ko\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\pl\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\pt-BR\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\ru\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\tr\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\zh-Hans\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\zh-Hant\System.ServiceModel.Federation.resources.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Vk.Base.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Vk.Data.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Vk.Operation.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Vk.Schema.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Vk.Data.pdb
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Vk.Operation.pdb
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Vk.Base.pdb
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\bin\Debug\net7.0\Vk.Schema.pdb
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.Vk.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.build.Vk.Api.props
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Vk.Api.props
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Vk.Api.props
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\scopedcss\bundle\Vk.Api.styles.css
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.csproj.CopyComplete
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.genruntimeconfig.cache
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\obj\Debug\net7.0\ref\Vk.Api.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Vk.Api.exe
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\appsettings.json
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Vk.Api.deps.json
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Vk.Api.runtimeconfig.json
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Vk.Api.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Vk.Api.pdb
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\EntityFramework.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\LinqKit.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\LinqKit.Core.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\MediatR.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.WsTrust.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.Saml.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Xml.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Npgsql.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Serilog.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Serilog.Sinks.RollingFile.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.Private.ServiceModel.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.ServiceModel.Duplex.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.ServiceModel.Federation.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.ServiceModel.Http.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.ServiceModel.NetTcp.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.ServiceModel.Primitives.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.ServiceModel.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.ServiceModel.Security.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\cs\System.Private.ServiceModel.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\de\System.Private.ServiceModel.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\es\System.Private.ServiceModel.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\fr\System.Private.ServiceModel.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\it\System.Private.ServiceModel.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\ja\System.Private.ServiceModel.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\ko\System.Private.ServiceModel.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\pl\System.Private.ServiceModel.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\pt-BR\System.Private.ServiceModel.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\ru\System.Private.ServiceModel.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\tr\System.Private.ServiceModel.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\zh-Hans\System.Private.ServiceModel.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\zh-Hant\System.Private.ServiceModel.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\cs\System.ServiceModel.Federation.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\de\System.ServiceModel.Federation.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\es\System.ServiceModel.Federation.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\fr\System.ServiceModel.Federation.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\it\System.ServiceModel.Federation.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\ja\System.ServiceModel.Federation.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\ko\System.ServiceModel.Federation.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\pl\System.ServiceModel.Federation.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\pt-BR\System.ServiceModel.Federation.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\ru\System.ServiceModel.Federation.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\tr\System.ServiceModel.Federation.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\zh-Hans\System.ServiceModel.Federation.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\zh-Hant\System.ServiceModel.Federation.resources.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Vk.Base.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Vk.Data.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Vk.Operation.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Vk.Schema.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Vk.Data.pdb
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Vk.Operation.pdb
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Vk.Base.pdb
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\bin\Debug\net7.0\Vk.Schema.pdb
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.csproj.AssemblyReference.cache
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.AssemblyInfoInputs.cache
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.AssemblyInfo.cs
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.csproj.CoreCompileInputs.cache
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.Vk.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.build.Vk.Api.props
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Vk.Api.props
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Vk.Api.props
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\scopedcss\bundle\Vk.Api.styles.css
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.csproj.CopyComplete
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\refint\Vk.Api.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.pdb
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.genruntimeconfig.cache
+C:\Users\Çağrı Özden\Desktop\FinalCase\VkApi\obj\Debug\net7.0\ref\Vk.Api.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.csproj.AssemblyReference.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.AssemblyInfoInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.AssemblyInfo.cs
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.csproj.CoreCompileInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\VkApi\obj\Debug\net7.0\refint\Vk.Api.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\VkApi\obj\Debug\net7.0\Vk.Api.pdb
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Vk.Api.exe
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\appsettings.json
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Vk.Api.deps.json
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Vk.Api.runtimeconfig.json
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Vk.Api.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Vk.Api.pdb
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\EntityFramework.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Humanizer.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\LinqKit.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\LinqKit.Core.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\MediatR.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.WsTrust.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.Saml.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Xml.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Npgsql.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Serilog.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Serilog.Sinks.RollingFile.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.Private.ServiceModel.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.ServiceModel.Duplex.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.ServiceModel.Federation.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.ServiceModel.Http.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.ServiceModel.NetTcp.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.ServiceModel.Primitives.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.ServiceModel.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.ServiceModel.Security.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\cs\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\de\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\es\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\fr\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\it\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\ja\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\ko\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\pl\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\pt-BR\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\ru\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\tr\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\zh-Hans\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\zh-Hant\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\cs\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\de\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\es\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\fr\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\it\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\ja\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\ko\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\pl\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\pt-BR\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\ru\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\tr\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\zh-Hans\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\zh-Hant\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Vk.Base.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Vk.Data.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Vk.Operation.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Vk.Schema.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Vk.Data.pdb
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Vk.Operation.pdb
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Vk.Base.pdb
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\bin\Debug\net7.0\Vk.Schema.pdb
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\Vk.Api.csproj.AssemblyReference.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\Vk.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\Vk.Api.AssemblyInfoInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\Vk.Api.AssemblyInfo.cs
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\Vk.Api.csproj.CoreCompileInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\Vk.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\Vk.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.Vk.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.build.Vk.Api.props
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Vk.Api.props
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Vk.Api.props
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\scopedcss\bundle\Vk.Api.styles.css
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\Vk.Api.csproj.CopyComplete
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\Vk.Api.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\refint\Vk.Api.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\Vk.Api.pdb
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\Vk.Api.genruntimeconfig.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\VkApi\obj\Debug\net7.0\ref\Vk.Api.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Vk.Api.exe
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\appsettings.json
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Vk.Api.deps.json
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Vk.Api.runtimeconfig.json
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Vk.Api.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Vk.Api.pdb
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\EntityFramework.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Humanizer.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\LinqKit.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\LinqKit.Core.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\MediatR.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.WsTrust.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.Saml.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.IdentityModel.Xml.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Npgsql.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Serilog.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Serilog.Sinks.RollingFile.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.Private.ServiceModel.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.ServiceModel.Duplex.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.ServiceModel.Federation.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.ServiceModel.Http.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.ServiceModel.NetTcp.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.ServiceModel.Primitives.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.ServiceModel.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.ServiceModel.Security.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\cs\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\de\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\es\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\fr\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\it\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\ja\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\ko\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\pl\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\pt-BR\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\ru\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\tr\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\zh-Hans\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\zh-Hant\System.Private.ServiceModel.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\cs\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\de\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\es\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\fr\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\it\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\ja\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\ko\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\pl\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\pt-BR\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\ru\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\tr\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\zh-Hans\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\zh-Hant\System.ServiceModel.Federation.resources.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Vk.Base.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Vk.Data.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Vk.Operation.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Vk.Schema.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Vk.Data.pdb
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Vk.Operation.pdb
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Vk.Base.pdb
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\bin\Debug\net7.0\Vk.Schema.pdb
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\Vk.Api.csproj.AssemblyReference.cache
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\Vk.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\Vk.Api.AssemblyInfoInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\Vk.Api.AssemblyInfo.cs
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\Vk.Api.csproj.CoreCompileInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\Vk.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\Vk.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.Vk.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.build.Vk.Api.props
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Vk.Api.props
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Vk.Api.props
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\scopedcss\bundle\Vk.Api.styles.css
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\Vk.Api.csproj.CopyComplete
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\Vk.Api.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\refint\Vk.Api.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\Vk.Api.pdb
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\Vk.Api.genruntimeconfig.cache
+C:\Users\hasan\OneDrive\Masaüstü\Backend\VkApi\obj\Debug\net7.0\ref\Vk.Api.dll

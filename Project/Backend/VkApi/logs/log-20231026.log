@@ -1,0 +1,93 @@
+2023-10-26 14:54:17.079 [INF] App server is starting.
+2023-10-26 14:54:25.635 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-26 14:54:25.645 [INF] HeartBeat
+2023-10-26 14:54:25.648 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-26 14:54:27.653 [FTL] Path=/vk/api/v1/Products || Method=GET || Exception=An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation 'Product' specified in string based include path 'Product'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+2023-10-26 14:54:27.710 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 058f9937-2f53-4b92-82d7-2b47108c0333 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-26 14:54:27.806 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 058f9937-2f53-4b92-82d7-2b47108c0333 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-26 14:54:27.815 [ERR] Connection ID "18374686507052040195", Request ID "80000004-0006-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 058f9937-2f53-4b92-82d7-2b47108c0333 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Vakifbank_Bootcamp\FinalCase\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2023-10-26 14:55:54.333 [INF] App server is starting.
+2023-10-26 14:56:03.358 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-26 14:56:03.364 [INF] HeartBeat
+2023-10-26 14:56:03.368 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-26 14:56:17.287 [INF] -------------Request-Begin------------
+2023-10-26 14:56:17.288 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: 
+2023-10-26 14:56:17.289 [INF] 
+
+2023-10-26 14:56:17.290 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-10-26 14:56:17.290 [INF] -------------Request-End------------
+2023-10-26 20:00:59.220 [INF] App server is starting.
+2023-10-26 20:03:16.531 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-26 20:03:16.536 [INF] HeartBeat
+2023-10-26 20:03:16.537 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-26 20:03:18.222 [INF] -------------Request-Begin------------
+2023-10-26 20:03:18.222 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Products 
+QueryString:  
+Request Body: 
+2023-10-26 20:03:18.223 [INF] 
+
+2023-10-26 20:03:18.223 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-10-26 20:03:18.224 [INF] -------------Request-End------------

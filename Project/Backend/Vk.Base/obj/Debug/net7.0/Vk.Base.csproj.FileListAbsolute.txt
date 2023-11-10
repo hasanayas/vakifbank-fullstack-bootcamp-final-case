@@ -1,0 +1,72 @@
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\Vk.Base\bin\Debug\net7.0\Vk.Base.deps.json
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\Vk.Base\bin\Debug\net7.0\Vk.Base.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\Vk.Base\bin\Debug\net7.0\Vk.Base.pdb
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\Vk.Base\obj\Debug\net7.0\Vk.Base.csproj.AssemblyReference.cache
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\Vk.Base\obj\Debug\net7.0\Vk.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\Vk.Base\obj\Debug\net7.0\Vk.Base.AssemblyInfoInputs.cache
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\Vk.Base\obj\Debug\net7.0\Vk.Base.AssemblyInfo.cs
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\Vk.Base\obj\Debug\net7.0\Vk.Base.csproj.CoreCompileInputs.cache
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\Vk.Base\obj\Debug\net7.0\Vk.Base.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\Vk.Base\obj\Debug\net7.0\refint\Vk.Base.dll
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\Vk.Base\obj\Debug\net7.0\Vk.Base.pdb
+C:\Vakifbank_Bootcamp\FinalCase\VkApi\Vk.Base\obj\Debug\net7.0\ref\Vk.Base.dll
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Base\bin\Debug\net7.0\Vk.Base.deps.json
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Base\bin\Debug\net7.0\Vk.Base.dll
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Base\bin\Debug\net7.0\Vk.Base.pdb
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.csproj.AssemblyReference.cache
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.AssemblyInfoInputs.cache
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.AssemblyInfo.cs
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.csproj.CoreCompileInputs.cache
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.dll
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Base\obj\Debug\net7.0\refint\Vk.Base.dll
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.pdb
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Base\obj\Debug\net7.0\ref\Vk.Base.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Base\bin\Debug\net7.0\Vk.Base.deps.json
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Base\bin\Debug\net7.0\Vk.Base.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Base\bin\Debug\net7.0\Vk.Base.pdb
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.csproj.AssemblyReference.cache
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.AssemblyInfoInputs.cache
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.AssemblyInfo.cs
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.csproj.CoreCompileInputs.cache
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Base\obj\Debug\net7.0\refint\Vk.Base.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.pdb
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Base\obj\Debug\net7.0\ref\Vk.Base.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Base\bin\Debug\net7.0\Vk.Base.deps.json
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Base\bin\Debug\net7.0\Vk.Base.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Base\bin\Debug\net7.0\Vk.Base.pdb
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.csproj.AssemblyReference.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.AssemblyInfoInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.AssemblyInfo.cs
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.csproj.CoreCompileInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Base\obj\Debug\net7.0\refint\Vk.Base.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Base\obj\Debug\net7.0\Vk.Base.pdb
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Base\obj\Debug\net7.0\ref\Vk.Base.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Base\bin\Debug\net7.0\Vk.Base.deps.json
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Base\bin\Debug\net7.0\Vk.Base.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Base\bin\Debug\net7.0\Vk.Base.pdb
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Base\obj\Debug\net7.0\Vk.Base.csproj.AssemblyReference.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Base\obj\Debug\net7.0\Vk.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Base\obj\Debug\net7.0\Vk.Base.AssemblyInfoInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Base\obj\Debug\net7.0\Vk.Base.AssemblyInfo.cs
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Base\obj\Debug\net7.0\Vk.Base.csproj.CoreCompileInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Base\obj\Debug\net7.0\Vk.Base.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Base\obj\Debug\net7.0\refint\Vk.Base.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Base\obj\Debug\net7.0\Vk.Base.pdb
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Base\obj\Debug\net7.0\ref\Vk.Base.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Base\bin\Debug\net7.0\Vk.Base.deps.json
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Base\bin\Debug\net7.0\Vk.Base.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Base\bin\Debug\net7.0\Vk.Base.pdb
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Base\obj\Debug\net7.0\Vk.Base.csproj.AssemblyReference.cache
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Base\obj\Debug\net7.0\Vk.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Base\obj\Debug\net7.0\Vk.Base.AssemblyInfoInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Base\obj\Debug\net7.0\Vk.Base.AssemblyInfo.cs
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Base\obj\Debug\net7.0\Vk.Base.csproj.CoreCompileInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Base\obj\Debug\net7.0\Vk.Base.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Base\obj\Debug\net7.0\refint\Vk.Base.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Base\obj\Debug\net7.0\Vk.Base.pdb
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Base\obj\Debug\net7.0\ref\Vk.Base.dll

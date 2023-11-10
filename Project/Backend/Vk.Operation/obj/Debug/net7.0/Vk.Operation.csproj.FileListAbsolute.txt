@@ -1,0 +1,84 @@
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.csproj.AssemblyReference.cache
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.AssemblyInfoInputs.cache
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.AssemblyInfo.cs
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.csproj.CoreCompileInputs.cache
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Operation.deps.json
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Operation.dll
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Operation.pdb
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Base.dll
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Data.dll
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Schema.dll
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Data.pdb
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Schema.pdb
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Base.pdb
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.csproj.CopyComplete
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.dll
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\obj\Debug\net7.0\refint\Vk.Operation.dll
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.pdb
+C:\Vakifbank_Bootcamp\FinalCase\Vk.Operation\obj\Debug\net7.0\ref\Vk.Operation.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Operation.deps.json
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Operation.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Operation.pdb
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Base.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Data.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Schema.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Data.pdb
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Schema.pdb
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\bin\Debug\net7.0\Vk.Base.pdb
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.csproj.AssemblyReference.cache
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.AssemblyInfoInputs.cache
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.AssemblyInfo.cs
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.csproj.CoreCompileInputs.cache
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.csproj.CopyComplete
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\obj\Debug\net7.0\refint\Vk.Operation.dll
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.pdb
+C:\Users\Çağrı Özden\Desktop\FinalCase\Vk.Operation\obj\Debug\net7.0\ref\Vk.Operation.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.csproj.AssemblyReference.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.AssemblyInfoInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.AssemblyInfo.cs
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.csproj.CoreCompileInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Operation\obj\Debug\net7.0\refint\Vk.Operation.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase\Vk.Operation\obj\Debug\net7.0\Vk.Operation.pdb
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\bin\Debug\net7.0\Vk.Operation.deps.json
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\bin\Debug\net7.0\Vk.Operation.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\bin\Debug\net7.0\Vk.Operation.pdb
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\bin\Debug\net7.0\Vk.Base.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\bin\Debug\net7.0\Vk.Data.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\bin\Debug\net7.0\Vk.Schema.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\bin\Debug\net7.0\Vk.Data.pdb
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\bin\Debug\net7.0\Vk.Schema.pdb
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\bin\Debug\net7.0\Vk.Base.pdb
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\obj\Debug\net7.0\Vk.Operation.csproj.AssemblyReference.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\obj\Debug\net7.0\Vk.Operation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\obj\Debug\net7.0\Vk.Operation.AssemblyInfoInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\obj\Debug\net7.0\Vk.Operation.AssemblyInfo.cs
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\obj\Debug\net7.0\Vk.Operation.csproj.CoreCompileInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\obj\Debug\net7.0\Vk.Operation.csproj.CopyComplete
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\obj\Debug\net7.0\Vk.Operation.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\obj\Debug\net7.0\refint\Vk.Operation.dll
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\obj\Debug\net7.0\Vk.Operation.pdb
+C:\Users\hasan\OneDrive\Masaüstü\FinalCase-Cagri\Vk.Operation\obj\Debug\net7.0\ref\Vk.Operation.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\bin\Debug\net7.0\Vk.Operation.deps.json
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\bin\Debug\net7.0\Vk.Operation.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\bin\Debug\net7.0\Vk.Operation.pdb
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\bin\Debug\net7.0\Vk.Base.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\bin\Debug\net7.0\Vk.Data.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\bin\Debug\net7.0\Vk.Schema.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\bin\Debug\net7.0\Vk.Data.pdb
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\bin\Debug\net7.0\Vk.Schema.pdb
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\bin\Debug\net7.0\Vk.Base.pdb
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\obj\Debug\net7.0\Vk.Operation.csproj.AssemblyReference.cache
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\obj\Debug\net7.0\Vk.Operation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\obj\Debug\net7.0\Vk.Operation.AssemblyInfoInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\obj\Debug\net7.0\Vk.Operation.AssemblyInfo.cs
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\obj\Debug\net7.0\Vk.Operation.csproj.CoreCompileInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\obj\Debug\net7.0\Vk.Operation.csproj.CopyComplete
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\obj\Debug\net7.0\Vk.Operation.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\obj\Debug\net7.0\refint\Vk.Operation.dll
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\obj\Debug\net7.0\Vk.Operation.pdb
+C:\Users\hasan\OneDrive\Masaüstü\Backend\Vk.Operation\obj\Debug\net7.0\ref\Vk.Operation.dll

@@ -1,0 +1,493 @@
+2023-10-28 16:51:26.705 [INF] App server is starting.
+2023-10-28 16:52:07.346 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-28 16:52:07.351 [INF] HeartBeat
+2023-10-28 16:52:07.353 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-28 16:52:09.534 [INF] -------------Request-Begin------------
+2023-10-28 16:52:09.535 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-10-28 16:52:09.535 [INF] 
+
+2023-10-28 16:52:09.535 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-10-28 16:52:09.535 [INF] -------------Request-End------------
+2023-10-28 20:29:15.117 [INF] App server is starting.
+2023-10-28 20:29:24.918 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-28 20:29:24.922 [INF] HeartBeat
+2023-10-28 20:29:24.923 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-28 20:29:26.670 [INF] -------------Request-Begin------------
+2023-10-28 20:29:26.671 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-10-28 20:29:26.671 [INF] 
+
+2023-10-28 20:29:26.671 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-10-28 20:29:26.671 [INF] -------------Request-End------------
+2023-10-28 20:29:31.939 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-28 20:29:31.939 [INF] HeartBeat
+2023-10-28 20:29:31.940 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-28 20:29:32.082 [INF] -------------Request-Begin------------
+2023-10-28 20:29:32.082 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userNumber": 0,
+  "userName": "string",
+  "userEmail": "string",
+  "userPassword": "string",
+  "userRole": "string",
+  "userBalance": 0,
+  "userProfitMargin": 0
+}
+2023-10-28 20:29:32.082 [INF] 
+
+2023-10-28 20:29:32.082 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-8c3f7383e86e0fd803cff36401e4f2a3-67f77ef7a4c8fcef-00","errors":{"UserRole":["OrderStatus must be 'Admin' or 'Dealer'."],"UserNumber":["UserNumber is required.","UserNumber must be a 6-digit number."],"UserBalance":["UserBalance is required."],"UserProfitMargin":["UserProfitMargin is required."]}}
+2023-10-28 20:29:32.082 [INF] -------------Request-End------------
+2023-10-28 20:30:50.968 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-28 20:30:50.993 [INF] HeartBeat
+2023-10-28 20:30:50.995 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-28 20:30:51.052 [INF] -------------Request-Begin------------
+2023-10-28 20:30:51.052 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userNumber": 0,
+  "userName": "test",
+  "userEmail": "test@gmail.com",
+  "userPassword": "1234",
+  "userRole": "Dealer",
+  "userBalance": 500,
+  "userProfitMargin": 10
+}
+2023-10-28 20:30:51.052 [INF] 
+
+2023-10-28 20:30:51.052 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-0a482551629a64c9efd1fb361d55d51f-47d8e965323baff5-00","errors":{"UserNumber":["UserNumber is required.","UserNumber must be a 6-digit number."]}}
+2023-10-28 20:30:51.052 [INF] -------------Request-End------------
+2023-10-28 20:30:56.847 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-28 20:30:56.847 [INF] HeartBeat
+2023-10-28 20:30:56.847 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-28 20:30:56.859 [INF] -------------Request-Begin------------
+2023-10-28 20:30:56.859 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userNumber": 778,
+  "userName": "test",
+  "userEmail": "test@gmail.com",
+  "userPassword": "1234",
+  "userRole": "Dealer",
+  "userBalance": 500,
+  "userProfitMargin": 10
+}
+2023-10-28 20:30:56.859 [INF] 
+
+2023-10-28 20:30:56.859 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-cdbc963efc904e7fa56f77ea0705c57c-7f719a97e13bb9e1-00","errors":{"UserNumber":["UserNumber must be a 6-digit number."]}}
+2023-10-28 20:30:56.859 [INF] -------------Request-End------------
+2023-10-28 20:31:06.598 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-28 20:31:06.598 [INF] HeartBeat
+2023-10-28 20:31:06.598 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-28 20:31:07.066 [INF] -------------Request-Begin------------
+2023-10-28 20:31:07.066 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userNumber": 773448,
+  "userName": "test",
+  "userEmail": "test@gmail.com",
+  "userPassword": "1234",
+  "userRole": "Dealer",
+  "userBalance": 500,
+  "userProfitMargin": 10
+}
+2023-10-28 20:31:07.066 [INF] 
+
+2023-10-28 20:31:07.066 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"userNumber":773448,"userName":"test","userEmail":"test@gmail.com","userPassword":"1234","userPasswordRetryCount":0,"userRole":"Dealer","userBalance":500,"userProfitMargin":10,"addresses":[],"orders":[]}}
+2023-10-28 20:31:07.066 [INF] -------------Request-End------------
+2023-10-28 20:31:27.838 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-28 20:31:27.841 [INF] HeartBeat
+2023-10-28 20:31:27.841 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-28 20:31:27.881 [INF] -------------Request-Begin------------
+2023-10-28 20:31:27.882 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: {
+  "userNumber": 773447,
+  "userName": "test2",
+  "userEmail": "test2@gmail.com",
+  "userPassword": "1234",
+  "userRole": "Dealer",
+  "userBalance": 500,
+  "userProfitMargin": 10
+}
+2023-10-28 20:31:27.882 [INF] 
+
+2023-10-28 20:31:27.882 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"userNumber":773447,"userName":"test2","userEmail":"test2@gmail.com","userPassword":"1234","userPasswordRetryCount":0,"userRole":"Dealer","userBalance":500,"userProfitMargin":10,"addresses":[],"orders":[]}}
+2023-10-28 20:31:27.882 [INF] -------------Request-End------------
+2023-10-28 20:32:09.509 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-28 20:32:09.513 [INF] HeartBeat
+2023-10-28 20:32:09.513 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-28 20:32:09.707 [INF] -------------Request-Begin------------
+2023-10-28 20:32:09.708 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users/1 
+QueryString:  
+Request Body: 
+2023-10-28 20:32:09.708 [INF] 
+
+2023-10-28 20:32:09.708 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found","response":null}
+2023-10-28 20:32:09.708 [INF] -------------Request-End------------
+2023-10-28 20:32:20.097 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-28 20:32:20.097 [INF] HeartBeat
+2023-10-28 20:32:20.097 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-28 20:32:20.110 [INF] -------------Request-Begin------------
+2023-10-28 20:32:20.110 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-10-28 20:32:20.110 [INF] 
+
+2023-10-28 20:32:20.110 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userNumber":773448,"userName":"test","userEmail":"test@gmail.com","userPassword":"1234","userPasswordRetryCount":0,"userRole":"Dealer","userBalance":500,"userProfitMargin":10,"addresses":[],"orders":[]},{"userNumber":773447,"userName":"test2","userEmail":"test2@gmail.com","userPassword":"1234","userPasswordRetryCount":0,"userRole":"Dealer","userBalance":500,"userProfitMargin":10,"addresses":[],"orders":[]}]}
+2023-10-28 20:32:20.110 [INF] -------------Request-End------------
+2023-10-28 20:33:31.927 [INF] App server is starting.
+2023-10-28 20:33:41.285 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-28 20:33:41.288 [INF] HeartBeat
+2023-10-28 20:33:41.290 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-28 20:33:43.340 [INF] -------------Request-Begin------------
+2023-10-28 20:33:43.340 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users/1 
+QueryString:  
+Request Body: 
+2023-10-28 20:33:43.340 [INF] 
+
+2023-10-28 20:33:43.341 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found","response":null}
+2023-10-28 20:33:43.341 [INF] -------------Request-End------------
+2023-10-28 20:37:22.040 [INF] App server is starting.
+2023-10-28 20:37:33.548 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-28 20:37:33.553 [INF] HeartBeat
+2023-10-28 20:37:33.555 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-28 20:37:35.548 [INF] -------------Request-Begin------------
+2023-10-28 20:37:35.549 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+Request Body: 
+2023-10-28 20:37:35.549 [INF] 
+
+2023-10-28 20:37:35.550 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"userNumber":773448,"userName":"test","userEmail":"test@gmail.com","userPassword":"1234","userPasswordRetryCount":0,"userRole":"Dealer","userBalance":500,"userProfitMargin":10,"addresses":[],"orders":[]},{"userNumber":773447,"userName":"test2","userEmail":"test2@gmail.com","userPassword":"1234","userPasswordRetryCount":0,"userRole":"Dealer","userBalance":500,"userProfitMargin":10,"addresses":[],"orders":[]}]}
+2023-10-28 20:37:35.551 [INF] -------------Request-End------------
+2023-10-28 20:37:58.459 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-28 20:37:58.460 [INF] HeartBeat
+2023-10-28 20:37:58.460 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-28 20:37:58.856 [INF] -------------Request-Begin------------
+2023-10-28 20:37:58.856 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users/13 
+QueryString:  
+Request Body: 
+2023-10-28 20:37:58.856 [INF] 
+
+2023-10-28 20:37:58.856 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users/13 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"userNumber":773448,"userName":"test","userEmail":"test@gmail.com","userPassword":"1234","userPasswordRetryCount":0,"userRole":"Dealer","userBalance":500,"userProfitMargin":10,"addresses":[],"orders":[]}}
+2023-10-28 20:37:58.857 [INF] -------------Request-End------------
+2023-10-28 20:38:03.810 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-28 20:38:03.810 [INF] HeartBeat
+2023-10-28 20:38:03.810 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-28 20:38:03.841 [INF] -------------Request-Begin------------
+2023-10-28 20:38:03.841 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users/5 
+QueryString:  
+Request Body: 
+2023-10-28 20:38:03.841 [INF] 
+
+2023-10-28 20:38:03.841 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Users/5 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found","response":null}
+2023-10-28 20:38:03.842 [INF] -------------Request-End------------
+2023-10-28 20:41:14.042 [INF] App server is starting.
+2023-10-28 20:41:26.843 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-28 20:41:26.848 [INF] HeartBeat
+2023-10-28 20:41:26.850 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-28 20:41:28.907 [ERR] An exception occurred in the database while saving changes for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Address_User_UserId". The conflict occurred in database "finalCase", table "dbo.User", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:f81cae62-2068-4dc1-b1a2-dc1750ffc80e
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Address_User_UserId". The conflict occurred in database "finalCase", table "dbo.User", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:f81cae62-2068-4dc1-b1a2-dc1750ffc80e
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-10-28 20:41:29.085 [ERR] CompleteTransaction
+2023-10-28 20:41:29.105 [INF] -------------Request-Begin------------
+2023-10-28 20:41:29.105 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: {
+  "userId": 0,
+  "addressLine1": "string",
+  "addressLine2": "string",
+  "city": "string",
+  "county": "string",
+  "postalCode": "string"
+}
+2023-10-28 20:41:29.105 [INF] 
+
+2023-10-28 20:41:29.106 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"userId":0,"addressLine1":"string","addressLine2":"string","city":"string","county":"string","postalCode":"string"}}
+2023-10-28 20:41:29.106 [INF] -------------Request-End------------
+2023-10-28 20:41:52.961 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-28 20:41:52.961 [INF] HeartBeat
+2023-10-28 20:41:52.962 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-28 20:41:53.070 [ERR] An exception occurred in the database while saving changes for context type 'Vk.Data.Context.VkDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Address_User_UserId". The conflict occurred in database "finalCase", table "dbo.User", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:f81cae62-2068-4dc1-b1a2-dc1750ffc80e
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Address_User_UserId". The conflict occurred in database "finalCase", table "dbo.User", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:f81cae62-2068-4dc1-b1a2-dc1750ffc80e
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-10-28 20:41:53.117 [ERR] CompleteTransaction
+2023-10-28 20:41:53.121 [INF] -------------Request-Begin------------
+2023-10-28 20:41:53.121 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+Request Body: {
+  "userId": 0,
+  "addressLine1": "string",
+  "addressLine2": "string",
+  "city": "string",
+  "county": "string",
+  "postalCode": "string"
+}
+2023-10-28 20:41:53.121 [INF] 
+
+2023-10-28 20:41:53.121 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Addresses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"userId":0,"addressLine1":"string","addressLine2":"string","city":"string","county":"string","postalCode":"string"}}
+2023-10-28 20:41:53.121 [INF] -------------Request-End------------
+2023-10-28 20:42:03.338 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-28 20:42:03.338 [INF] HeartBeat
+2023-10-28 20:42:03.338 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-28 20:42:03.394 [INF] -------------Request-Begin------------
+2023-10-28 20:42:03.394 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Orders 
+QueryString:  
+Request Body: {
+  "userId": 0,
+  "orderStatus": "string",
+  "orderImage": "string",
+  "orderPaymentMethod": "string",
+  "orderAmount": 0
+}
+2023-10-28 20:42:03.394 [INF] 
+
+2023-10-28 20:42:03.394 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /finalCase/Orders 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-797eca5795befc58fca51e8954c365a5-2a7c1ed9c22cc253-00","errors":{"OrderAmount":["OrderAmount is required.","OrderAmount must be greater than 0."],"OrderStatus":["OrderStatus must be 'Waiting', 'Processing', or 'Completed'."]}}
+2023-10-28 20:42:03.395 [INF] -------------Request-End------------

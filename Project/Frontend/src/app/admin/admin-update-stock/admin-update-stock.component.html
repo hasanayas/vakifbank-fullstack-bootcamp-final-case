@@ -1,0 +1,37 @@
+<div class="container mt-4">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Product ID</th>
+          <th scope="col">Product Name</th>
+          <th scope="col">Stock Quantity</th>
+          <th scope="col">Action</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of products">
+          <td>{{ product.id }}</td>
+          <td>{{ product.productName }}</td>
+          <td>{{ product.productQuantity }}</td>
+          <td>
+            <button class="btn btn-primary" (click)="selectProduct(product)">Select</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="input-group mb-3">
+          <input type="number" class="form-control" [(ngModel)]="newStock">
+          <div class="input-group-append">
+            <button class="btn btn-success" (click)="PutStock()">Update</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
