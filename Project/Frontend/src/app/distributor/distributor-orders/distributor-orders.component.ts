@@ -52,6 +52,10 @@ export class DistributorOrdersComponent {
 
  //Tarihe göre filtreleme 
  filterOrders(event: Event) {
+
+  let Id = this.loggedInUserId;
+  Id = Number(Id);
+
   const target = event.target as HTMLSelectElement;
   const days = target.value;
   if (days) {
@@ -60,8 +64,8 @@ export class DistributorOrdersComponent {
 
     this.http.get(`${environment.url}Orders`).subscribe((data: any) => {
       const allOrders = data.response as any[];
-      this.waitingOrders = allOrders.filter((order: any) => order.orderStatus === 'Waiting' && order.userId === 2 && new Date(order.insertDate) >= filterDate);
-      this.completedOrders = allOrders.filter((order: any) => order.orderStatus === 'Completed' && order.userId === 2 && new Date(order.insertDate) >= filterDate);
+      this.waitingOrders = allOrders.filter((order: any) => order.orderStatus === 'Waiting' && order.userId === Id && new Date(order.insertDate) >= filterDate); //Bug fix 
+      this.completedOrders = allOrders.filter((order: any) => order.orderStatus === 'Completed' && order.userId === Id && new Date(order.insertDate) >= filterDate);  //Bug fix 
     });
   }
 }
