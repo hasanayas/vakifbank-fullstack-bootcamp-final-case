@@ -28,15 +28,17 @@ Bu proje, Vakıfbank Fullstack Bootcamp'inin final projesidir. Program, Angular 
 
 ## Endpointler
 
-![1](https://github.com/hasanayas/vakifbank-fullstack-bootcamp-final-case/assets/86951716/48fcb5b8-d124-4b40-ab4d-3aa09619799b)
-![2](https://github.com/hasanayas/vakifbank-fullstack-bootcamp-final-case/assets/86951716/37644a37-37c2-4c5c-9c19-05a7f2059a3b)
-![3](https://github.com/hasanayas/vakifbank-fullstack-bootcamp-final-case/assets/86951716/8cd24855-7ec3-4f80-a0c8-4d2f739805fa)
+![1](https://github.com/hasanayas/vakifbank-fullstack-bootcamp-final-case/assets/86951716/bcc43595-b1b9-491f-bb2a-74a75095c492)
+![2](https://github.com/hasanayas/vakifbank-fullstack-bootcamp-final-case/assets/86951716/9d7f59de-e0b1-432a-8405-b402f93cbf7e)
+![3](https://github.com/hasanayas/vakifbank-fullstack-bootcamp-final-case/assets/86951716/66ccc1f3-5b8b-400f-8d3c-fbd9228f3dd9)
 
 ## Admin Sayfası
-https://github.com/hasanayas/vakifbank-fullstack-bootcamp-final-case/assets/86951716/c9972628-3f9f-481f-bc3c-9be460ff03df
+[https://github.com/hasanayas/vakifbank-fullstack-bootcamp-final-case/assets/86951716/c9972628-3f9f-481f-bc3c-9be460ff03df](https://github.com/hasanayas/vakifbank-fullstack-bootcamp-final-case/assets/86951716/e0f6252a-12a0-4feb-acc1-54e9c2a0e97d)
 
 ## Bayi Sayfası
-https://github.com/hasanayas/vakifbank-fullstack-bootcamp-final-case/assets/86951716/2d8ccf3a-6c78-43c0-91ce-cbf4030f0de8
+https://github.com/hasanayas/vakifbank-fullstack-bootcamp-final-case/assets/86951716/3ab0d79f-8110-4de4-b922-e5150b818969
+
+Not : Son README güncellemesi proje özel halden genel hale çekildiğinde, resimlerin görüntülenmemesi nedeniyle yapılmıştır
 
 
 
